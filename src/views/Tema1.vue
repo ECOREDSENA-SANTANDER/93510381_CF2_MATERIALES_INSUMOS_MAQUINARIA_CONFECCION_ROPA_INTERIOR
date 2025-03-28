@@ -5,545 +5,196 @@
       .titulo-principal.color-acento-contenido
         .titulo-principal__numero
           span 1
-        h1 Titulo de primer nivel
+        h1 Evolución histórica del uso de ropa interior
         
+      p.mb-5 La ropa interior se utiliza desde hace más de 5000 años a.C. Su evolución histórica, tanto en la versión femenina como masculina, junto con la selección de materiales e insumos adaptados a las necesidades, es un aspecto fundamental en su diseño y fabricación.
 
-      AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul")
-        .row(titulo="Titulo item 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        div(titulo="Titulo item 2")
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-
-
-
-
-      Separador
-
-      AcordionA(tipo="b" clase-tarjeta="tarjeta tarjeta--azul")
-        .row(titulo="Titulo item 1")
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row(titulo="Titulo item 2")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-          .col-md-6.mb-4.mb-md-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-      ImagenInfografica.color-primario
-        template(v-slot:imagen)
-          figure
-            img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-            figcaption Leyenda de la imagen
-
-        .tarjeta.color-acento-botones.p-3(x="20%" y="20%" numero="1")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        .tarjeta.color-acento-botones.p-3(x="50%" y="50%" numero="A")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        .tarjeta.color-acento-botones.p-3(x="70%" y="70%" numero="B")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      Separador
-
-      ImagenInfograficaB.color-primario
-        template(v-slot:imagen)
-          figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        div(x="20%" y="20%" tooltip="tooltip de max 35 caracteres" numero="1")
-          h5 titulo
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-          p Lorem ipsum dolor Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        div(x="50%" y="50%" tooltip="tooltip de max 35 caracteres")
-          h5.mb-2 titulo
-          p Lorem ipsum dolor ddasdasd asdasd asdasd a asd sd asdasd sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-        div(x="70%" y="70%" tooltip="tooltip de max 35 caracteres")
-          .h5.mb-2 titulo
-          p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus
-
-      Separador
-
-
-      TarjetaAudio.color-primario.mb-3(
-        texto="Texto de muestra  "
-        :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-        @audio-hover="mostrarIndicadorTarjetaAudio = false"
-      )
-        .indicador--click(v-if="mostrarIndicadorTarjetaAudio")
-      TarjetaAudio.color-secundario.mb-3(
-        texto="Texto de muestra <br> Texto de muestra "
-        :audio="require('../assets/componentes/audios/audio-ej.mp3')"
-      )
-
-      Separador
-
-
-      .tarjeta.tarjeta--azul.p-4
-        SlyderA(tipo="b")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-          .row.justify-content-center.align-items-center.my-lg-4
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-      .tarjeta.tarjeta--gris.p-4
-        PasosB.color-acento-contenido
-          .row(titulo="")
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-          .row(titulo="")
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-
-      Separador
-
-      .tarjeta.tarjeta--gris.p-4
-        LineaTiempoC.color-acento-contenido(text-small)
-          .row(titulo="Titulo 1")
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-
-          .row(titulo="Titulo 2")
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-
-            .col-md-6.mb-4.mb-md-0
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-      SlyderF(columnas="col-lg-6 col-xl-4")
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center FIRST
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 2
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 3
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 4
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 5
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 6
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center 7
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-
-        .tarjeta.color-acento-botones.p-4
-          .row.justify-content-center.mb-3
-            .col-8
-              img(src='@/assets/componentes/ej-05.svg' alt='AvatarTop')
-          h2.text-center LAST
-          p.text-center moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-            
-      Separador
-
-      LineaTiempoD.color-primario
-        .row(numero="1" titulo="Praesent luctus")
-          .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row(numero="2" titulo="Praesent luctus")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.  
-
-        .row(numero="3" titulo="Praesent luctus")
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-          .col-md-6.mb-4.mb-md-0
-            p.text-small This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-
-
-      Separador
-
-      TabsA.color-acento-botones
-        .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 1")
-          h4 PASO 1: The splendor
-          p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-            strong user style sheets
-            |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-          p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-        .tarjeta.color-acento-botones--borde.p-4(titulo="PASO 2")
-          h4 PASO 2: The splendor
-          .row
-            .col-xl-6.mb-4
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-xl-6
-              p This is a normal paragraph (<code>p</code> element). To add some length to it, let us mention that this page was primarily written for testing the effect of 
-                strong user style sheets
-                |. You can use it for various other purposes as well, like just checking how your browser displays various HTML elements by default. It can also be useful when testing conversions from HTML format to other formats, since some elements can go wrong then.
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-
-      TabsC.color-primario
-        .py-3.py-md-4(titulo="The splendor of the mystery")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      .row.fondo1.p-4.p-lg-5.p-md-3.mb-5(data-aos="fade-down")
+        .col-lg-12
+          .row.justify-content-center.align-items-center 
           
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-        .py-3.py-md-4(titulo="Don’t lie to yourself")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-md-6
-              h4 Celebrate your failures 2
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion. 
-
-
-      Separador
-
-
-      TabsB.color-primario
-        .py-4.py-md-5(titulo="The splendor of the mystery" :icono="require('@/assets/componentes/ej-04.svg')")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              h4 Celebrate your failures 1
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          
-            .col-md-6
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-        .py-4.py-md-5(titulo="Don’t lie to yourself" :icono="require('@/assets/componentes/ej-04.svg')")
-          .row
-            .col-md-6.mb-4.mb-md-0
-              figure
-                img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-                figcaption Leyenda de la imagen
-            .col-md-6
-              h4 Celebrate your failures 2
-              p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-      Separador
-
-
-
-      LineaTiempoE.color-primario
-        .row(titulo="2014 - Present" subtitulo="Title, Company")
-          .col-lg-6.mb-4.mb-lg-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-lg-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row(titulo="2014 - Present" subtitulo="Title, Company")
-          .col-lg-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen      
-          .col-lg-6.mb-4.mb-lg-0
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-
-
-      Separador
-
-      PasosA.color-primario.mb-5(tipo="n")
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Lorem ipsum dolor sit amet.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row
-          .col-md-6.mb-4.mb-md-0
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la Imagen
-          .col-md-6
-            h3 Nullam vulputate mauris eros, ut.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-            
-
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Duis laoreet est non ligula.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+          LineaTiempoE.color-primario.fnd1
+            .row.text-white(titulo="5300 años a.C" subtitulo="")
+              .col-lg-3.col-md-3.col-6
+                img(src='@/assets/curso/tema1/1.svg', alt='Texto que describa la imagen')
+              .col-lg-9.col-md-9.mb-4.mb-lg-0
+                p.mb-3 En 1991 se descubrió el cuerpo momificado de un hombre que vivió hace más de 5300 años y vestía un calzón de piel de cabra. Aunque no se sabe con exactitud cuándo comenzaron a usarse los calzoncillos, existen registros en el Antiguo Egipto.
+                p.mb-0 En 1922, al descubrir la tumba de Tutankamón, se halló un pañal de lino, considerado el antecedente de los calzoncillos actuales. Los egipcios reservaban la ropa interior para los hombres, mientras que solo algunas mujeres privilegiadas y prostitutas de clase alta la utilizaban.
         
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
-
-        .row
-          .col-md-6.mb-4.mb-md-0
-            h3 Duis laoreet est non ligula.
-            p This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
-        
-          .col-md-6
-            figure
-              img(src='@/assets/template/img-placeholder.svg', alt='Texto que describa la imagen')
-              figcaption Leyenda de la imagen
+            .row.text-white(titulo="1700 años a.C." subtitulo="")
+              .col-lg-12
+                p.mb-4 En Creta apareció el primer sujetador, una correa que sostenía y elevaba los senos sin cubrirlos. A diferencia de los egipcios, en la antigua Grecia se valoraba la desnudez y la belleza del cuerpo masculino. Solo los grandes héroes usaban una especie de suspensorio para protegerse en combate.
+                p.mb-0 Durante el Imperio Romano, la ropa interior comenzó a usarse por higiene y abrigo. Los hombres llevaban bajo la túnica una prenda larga llamada subúcula.
 
 
-      Separador
+      .titulo-sexto.color-secundario.mb-4
+        h5 Figura 1. 
+        | Subúcula
 
-      p(data-aos="fade-left").mb-4 This is another paragraph. I think it needs to be added that the set of elements tested is not exhaustive in any sense. I have selected those elements for which it can make sense to write user style sheet rules, in my opionion.
+      .row.fondo2.p-4.p-lg-4.p-md-3.mb-4(data-aos="fade-down")
+        .col-lg-12
 
-      .row
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0
-          .tarjeta--boton.color-primario.p-4
-            .row.justify-content-center.mb-3
-              .col-7
+          .row.justify-content-start.align-items-end
+            .col-lg-2
+              p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
+            .col-lg-7
+              img.img-a.img-t(src='@/assets/curso/tema1/2.svg', alt='Representa el proceso de colocación y ajuste de una prenda de ropa interior primitiva llamada subúcula.')
+
+      p.mb-5 Además, en la arena del circo los gladiadores usaban una pieza como un pañal que cubría los genitales y se llamaba subligaculum.
+
+      .titulo-sexto.color-secundario.mb-4
+        h5 Figura 2. 
+        | Subligaculum
+
+      .row.fondo2.p-4.p-lg-4.p-md-3.mb-5(data-aos="fade-down")
+        .col-lg-12
+
+          .row.justify-content-start.align-items-end
+            .col-lg-2
+              p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
+            .col-lg-7
+              img.img-a.img-t(src='@/assets/curso/tema1/3.svg', alt='Los gladiadores utilizaban una prenda llamada subligaculum, similar a un pañal, que cubría y protegía los genitales durante los combates.')
+
+
+      .row.justify-content-center.align-items-center.mb-5.mt-5(data-aos="fade-down")
+        .col-lg-12
+          .bloque-texto-a.color-acento-contenido.p-4.p-md-5
+            .row.align-items-center.justify-content-center
+              .col-lg-8.mb-0
+                .bgw.p-4
+                  p.mb-4(data-aos="fade-left") Las mujeres casadas realzaban sus senos con el apodesmo, una faja de tejido fino adornada con cintas de colores. También empleaban el mastodeton, una banda diseñada para aplanar el busto.
+                  p.mb-0 En la alta sociedad, las mujeres usaban redecillas de hilos de oro o plata y pintaban sus pezones en tonos dorados o plateados. Las prendas íntimas femeninas eran utilizadas principalmente como símbolos de seducción.
+              .col-lg-4.col-md-7.col-7.mb-lg-0.d-none.d-lg-block
                 figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
+                  img.mb-lg-0.img-a.img-t.mt(data-aos="fade-down")(src='@/assets/curso/tema1/4.png', alt='') 
 
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
 
-        .col-sm-6.col-lg-3.mb-4.mb-lg-0
-          .tarjeta--boton.color-secundario.p-4
-            .row.justify-content-center.mb-3
-              .col-7
+      .titulo-sexto.color-secundario.mb-4
+        h5 Figura 3. 
+        | El apodesmo y el mastodeton
+
+      .row.fondo2.p-4.p-lg-4.p-md-3.mb-5(data-aos="fade-down")
+        .col-lg-12
+
+          .row.justify-content-start.align-items-end
+            .col-lg-2
+              p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
+            .col-lg-7
+              img.img-a.img-t(src='@/assets/curso/tema1/5.svg', alt='Las mujeres casadas usaban el apodesmo, una faja de tejido fino con cintas de colores para realzar el busto, y el mastodeton, una banda diseñada para aplanarlo.')
+
+      .titulo.mb-5.ps-5.pe-3(data-aos="fade-right")
+        img(src='@/assets/curso/tema1/titulo.png', alt='Imagen decorativa')
+        h3.mb-0.text-white.mx-2 Edad Media
+      
+      p.mb-4 Durante la Edad Media, la Iglesia consideraba el cuerpo humano inmoral, por lo que debía ocultarse. Las prendas romanas fueron reemplazadas por camisones largos que cubrían todo el cuerpo y se usaban bajo el vestido. Inicialmente, tanto hombres como mujeres los llevaban, pero con el tiempo su uso quedó reservado únicamente para ellas.
+
+      .titulo-sexto.color-secundario.mb-4
+        h5 Figura 4. 
+        | Camisones
+
+      .row.fondo2.p-4.p-lg-4.p-md-3.mb-5(data-aos="fade-down")
+        .col-lg-12
+
+          .row.justify-content-start.align-items-end
+            .col-lg-2
+              p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
+            .col-lg-7
+              img.img-a.img-t(src='@/assets/curso/tema1/6.svg', alt='Los camisones eran prendas utilizados por mujeres y hombres, fabricados en finas telas.')
+
+      .titulo1.mb-5.ps-5.pe-3(data-aos="fade-right")
+        img(src='@/assets/curso/tema1/titulo.png', alt='Imagen decorativa')
+        h3.mb-0.text-white.mx-4 Revolución Francesa – 1949
+
+      .row.justify-content-center.align-items-center(data-aos="fade-right").mb-5
+        .col-lg-12
+          .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/tema1/7.png')})`}", alt='Imagen decorativa.'
+            )
+            .bloque-texto-g__texto.p-lg-5.p-md-4.p-4
+              p.mb-4 Tras la Revolución Francesa, la mujer impulsó cambios en la ropa interior. Aunque se promovía el culto al cuerpo femenino, persistía el pudor, y las autoridades prohibieron el corsé. Sin embargo, por estética, muchas mujeres siguieron usándolo, pese a los problemas de salud que causaba. Además, también lo empleaban como chaleco protector.
+
+      .titulo-sexto.color-secundario.mb-4
+        h5 Figura 5. 
+        | Corsé
+
+      .row.fondo2.p-4.p-lg-4.p-md-3.mb-5(data-aos="fade-down")
+        .col-lg-12
+
+          .row.justify-content-start.align-items-end
+            .col-lg-2
+              p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
+            .col-lg-7
+              img.img-a.img-t(src='@/assets/curso/tema1/8.svg', alt='Corsé antiguo, una prenda ajustada con varillas y cordones diseñada para moldear la cintura y realzar la figura femenina. Su estructura rígida reflejaba los ideales de belleza de la época, aunque su uso prolongado podía causar problemas de salud.')
+
+      p.mb-4 Vestirse era un ritual para las mujeres, quienes usaban múltiples capas de ropa, incluyendo camisa, pantalón, corsé, cubrecorsé y enaguas con encajes y lazos. Aunque elegante, el corsé era incómodo y poco práctico para las tareas diarias, por lo que no todas podían llevarlo.
+   
+      .titulo-sexto.color-secundario.mb-4
+        h5 Figura 6. 
+        | Vestuario de época
+
+      .row.fondo2.p-4.p-lg-4.p-md-3.mb-5(data-aos="fade-down")
+        .col-lg-12
+
+          .row.justify-content-start.align-items-end
+            .col-lg-2
+              p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
+            .col-lg-7
+              img.img-a.img-t(src='@/assets/curso/tema1/9.svg', alt='Ilustración en blanco y negro de una mujer con un vestido de época del siglo XIX. Lleva un vestido amplio con una falda abullonada, detalles decorativos en la parte inferior y mangas cortas con adornos. Sostiene un abanico en una mano y parece llevar un peinado recogido elegante.')
+
+      .titulo1.mb-5.ps-5.pe-3(data-aos="fade-right")
+        img(src='@/assets/curso/tema1/titulo.png', alt='Imagen decorativa')
+        h3.mb-0.text-white.mx-4 Finales del siglo XIX
+
+      p.mb-4 A finales del siglo XIX aparecieron las primeras medias de seda, ligueros y la ropa o lencería femenina fue considerada sexy, reservada únicamente para la intimidad y para las llamadas mujeres de mala vida.
+
+      .titulo-sexto.color-secundario.mb-4
+        h5 Figura 7. 
+        | Lencería femenina
+
+      .row.fondo2.p-4.p-lg-4.p-md-3.mb-5(data-aos="fade-down")
+        .col-lg-12
+
+          .row.justify-content-start.align-items-end
+            .col-lg-2
+              p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
+            .col-lg-7
+              img.img-a.img-t(src='@/assets/curso/tema1/10.svg', alt='Mujer vistiéndose frente a un biombo, usando un corsé y medias. La escena refleja la intimidad y elegancia de la moda femenina de la época, donde las prendas ajustadas y delicadas eran símbolo de refinamiento y estatus.')
+
+      p.mb-4 A partir de 1880, en Europa surgió el Movimiento para la Salud, promoviendo los beneficios de la lana en contacto con la piel. Esto llevó a su popularización en la ropa interior masculina.
+
+      .titulo.mb-5.ps-5.pe-3(data-aos="fade-right")
+        img(src='@/assets/curso/tema1/titulo.png', alt='Imagen decorativa')
+        h3.mb-0.text-white.mx-2 Siglo XX
+
+      .row.justify-content-center.align-items-center.mb-5.mt-5(data-aos="fade-down")
+        .col-lg-12
+          .bloque-texto-a.color-acento-contenido.p-4.p-md-5
+            .row.align-items-center.justify-content-center
+              .col-lg-8.mb-0
+                .bgw.p-4
+                  p.mb-4(data-aos="fade-left") En el siglo XX, la ropa interior femenina y masculina se volvió más cómoda, reflejando cambios en la moda, la sexualidad y el poder.
+                  p.mb-4 Tras la crisis económica de 1929, los calzones largos masculinos se acortaron para reducir costos, y en 1934 nació el slip, un calzoncillo ajustado de tejido fino.
+                  p.mb-0 En 1914, Mary Phelps Jacob, buscando un diseño más discreto para su vestido, creó con dos pañuelos de seda y una cinta el primer sujetador moderno, patentándolo el 3 de noviembre del mismo año.
+              .col-lg-4.col-md-7.col-7.mb-lg-0.d-none.d-lg-block
                 figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-        .col-sm-6.col-lg-3.mb-4.mb-sm-0
-          .tarjeta--boton.color-acento-contenido.text-white--hover.p-4
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
-
-        .col-sm-6.col-lg-3
-          .tarjeta--boton.color-acento-botones.p-4
-            .row.justify-content-center.mb-3
-              .col-7
-                figure
-                  img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-
-            h3.text-center Intuition important
-            p.text-small Sed ut perspiciatis unde omnis iste natus error sit vtatem accusa ntium dol.
+                  img.mb-lg-0.img-a.img-t.mt1(data-aos="fade-down")(src='@/assets/curso/tema1/11.png', alt='') 
 
 
-      Separador
+      .titulo-sexto.color-secundario.mb-4
+        h5 Figura 8. 
+        | Sujetadores
 
+      .row.fondo2.p-4.p-lg-4.p-md-3.mb-0(data-aos="fade-down")
+        .col-lg-12
 
+          .row.justify-content-start.align-items-end
+            .col-lg-2
+              p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
+            .col-lg-7
+              img.img-a.img-t(src='@/assets/curso/tema1/12.svg', alt='Sujetadores modernos, confeccionado con tela sencilla y costuras visibles. Su diseño rudimentario refleja la evolución de la lencería femenina hacia prendas más cómodas y funcionales.')
 
-      .tarjeta--container.row.mb-5
-        .col-md.tarjeta.color-primario.p-5
-          .row.justify-content-center.mb-4
-            .col-6
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-            
-          h2.text-center Celebrate your<br>failures
-          p To surpass others is fucking tough, if you only do as you are told you don’t have it in you to succeed. Think about all the possibilities. You’ve been placed in the crucial moment. Abandon the shelter of insecurity. Be bold. Greatness isn’t the height of your stature, it’s the heft of your spirit.
-        .col-md.tarjeta.color-acento-botones.p-5
-          .row.justify-content-center.mb-4
-            .col-6
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-            
-          h2.text-center Sterility leads to<br>susceptibility
-          p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-        .col-md.tarjeta.color-acento-contenido.text-white.p-5
-          .row.justify-content-center.mb-4
-            .col-6
-              figure
-                img(src='@/assets/componentes/ej-05.svg', alt='Texto que describa la imagen')
-            
-          h2.text-center Sterility leads to<br>susceptibility
-          p Remember it’s called the creative process, it’s not the creative moment. Saul Bass on failure: Failure is built into creativity… the creative act involves this element of ‘newness’ and ‘experimentalism,’ then one must expect and accept the possibility of failure.
-
-
-      Separador
-
-      .row
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.arriba.color-primario(@mouseover="indicadorTarjetaSlide = false")
-            .indicador--hover(v-if="indicadorTarjetaSlide")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, 
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-
-        .col-sm-6.col-xl-3.mb-4.mb-xl-0
-          .tarjeta.tarjeta-slide.abajo.color-secundario(@mouseover="indicadorTarjetaSlide = false")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-        .col-sm-6.col-xl-3.mb-4.mb-sm-0
-          .tarjeta.tarjeta-slide.derecha.color-acento-contenido(@mouseover="indicadorTarjetaSlide = false")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-        .col-sm-6.col-xl-3
-          .tarjeta.tarjeta-slide.izquierda.color-acento-botones(@mouseover="indicadorTarjetaSlide = false")
-            .tarjeta-slide__contenedor
-              .tarjeta-slide__img(:style="{'background-image': `url(${require('@/assets/template/avatar.svg')})`}")
-              .tarjeta-slide__contenido.p-4.p-xl-5
-                h1 John Doe
-                p Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur vestibulum tortor at blandit congue. Pellentesque vel felis posuere, molestie metus id, vulputate turpis.
-
-
-      Separador
-      .row
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-primario.p-5
-            .tarjeta-numerada__numero
-              .h2 1
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-secundario.p-5
-            .tarjeta-numerada__numero
-              .h2 2
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-contenido.p-5
-            .tarjeta-numerada__numero
-              .h2 3
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas
-
-        .col-md-6.col-xl.mb-4.mb-xl-0
-          .tarjeta-numerada.color-acento-botones.p-5
-            .tarjeta-numerada__numero
-              .h2 4
-            p.text-center 
-              b Ruta integral de atención en salud 
-            p.text-center Acciones realizadas en los entornos donde transcurre la vida y se desarrollan las personas  
-  </template>
+</template>
 
 <script>
 export default {
