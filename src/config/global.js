@@ -289,7 +289,7 @@ export default {
       link: '',
     },
     {
-      referencia: 'Coats. (s.f.). Todo sobre ropa interior. Recuperado de',
+      referencia: 'Coats. (s.f.). Ropa interior e íntima. Recuperado de ',
       link:
         'https://www.coats.com/es/industries/apparel/applications/intimate-and-underwear/',
     },
@@ -299,7 +299,7 @@ export default {
     },
     {
       referencia:
-        'El baúl de las costureras. (2017). Maquinaria de coser y accesorios. Recuperado de',
+        'El baúl de las costureras. (2017). Cómo enhebrar agujas de coser a mano. Recuperado de',
       link:
         'https://www.elbauldelacosturera.com/search/label/M%C3%A1quinas%20de%20coser%20y%20accesorios',
     },
@@ -351,7 +351,7 @@ export default {
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
+          cargo: 'Evaluadora instruccional',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],
@@ -367,11 +367,6 @@ export default {
         {
           nombre: 'Pedro Alonso Bolivar Gonzalez',
           cargo: 'Desarrollador <em>full stack</em>',
-          centro: 'Centro Agroturístico - Regional Santander',
-        },
-        {
-          nombre: 'Maria Alejandra Vera Briceño',
-          cargo: 'Animadora y productora multimedia',
           centro: 'Centro Agroturístico - Regional Santander',
         },
         {

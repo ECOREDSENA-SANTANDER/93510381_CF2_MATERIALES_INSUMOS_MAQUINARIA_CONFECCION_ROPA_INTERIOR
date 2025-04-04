@@ -69,7 +69,7 @@
               .col-lg-9.mb-4
                 .bg5.p-1
                   h3.mb-0.ps-3.pe-3.text-white Clásico con abertura
-            p.mb-0.text-white Es el estilo más clásico, ya que tiene una alta cobertura en los laterales y deja las piernas completamente expuestas para mayor libertad de movimiento. Cuenta con una abertura frontal, lo que lo hace muy práctico y cómodo.
+            p.mb-0.text-white Es un diseño alto en las piernas, con cobertura media en la cadera y buen ajuste. Incorpora una abertura lateral para mayor comodidad.
       .col-md.tarjeta.color-acento-contenido.tar.p-4.p-md-4.p-lg-5(data-aos="fade-right")
         .row.justify-content.mb-4
           .col-12
@@ -125,7 +125,7 @@
                 img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/16.svg' alt='AvatarTop')
             .bg51.p-2.mb-4
               h4.text-center.mb-0.text-white Bóxer extralargo
-            p.mb-0.text-center(data-aos="fade-right") Tiene mayor cobertura en el área de las piernas. Está elaborado en lycra, un material que se ajusta perfectamente a la forma del cuerpo, brindando comodidad y mayor libertad de movimiento.
+            p.mb-0.text-center(data-aos="fade-right") Tiene mayor cobertura en el área de las piernas. Está elaborado en #[em lycra], un material que se ajusta perfectamente a la forma del cuerpo, brindando comodidad y mayor libertad de movimiento.
           .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
             .row.justify-content-center.mb-3
               .col-8.my-4

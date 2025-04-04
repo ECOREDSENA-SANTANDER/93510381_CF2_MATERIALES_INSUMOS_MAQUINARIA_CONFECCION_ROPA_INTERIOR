@@ -21,6 +21,8 @@ export default {
       titulo: 'Cuestionario',
       introduccion:
         '<b> Objetivo:</b> Evaluar la comprensión de los conceptos fundamentales sobre insumos, materiales y telas, incluyendo sus tipos, propiedades, procesos de producción y aplicaciones en la industria textil.',
+      titulo_aprobado: '¡FELICIDADES!',
+      titulo_reprobado: 'VUELVA A INTENTARLO',
       barajarPreguntas: true,
       preguntas: [
         {
@@ -234,9 +236,10 @@ export default {
           mensaje_incorrecto: 'Lo sentimos, su respuesta no es la correcta.',
         },
       ],
-      mensaje_final_aprobado: '¡Excelente! Ha superado la actividad.',
+      mensaje_final_aprobado:
+        'Ha demostrado un gran conocimiento sobre los insumos, materiales y telas, sus características y aplicaciones en la industria textil. ¡Continúe aprendiendo y explorando este apasionante tema!',
       mensaje_final_reprobado:
-        'Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
+        'No ha superado la actividad. Le recomendamos volver a revisar el componente formativo e intentar nuevamente la actividad didáctica.',
     },
   }),
 }

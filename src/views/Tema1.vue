@@ -24,12 +24,12 @@
             .row.text-white(titulo="1700 años a.C." subtitulo="")
               .col-lg-12
                 p.mb-4 En Creta apareció el primer sujetador, una correa que sostenía y elevaba los senos sin cubrirlos. A diferencia de los egipcios, en la antigua Grecia se valoraba la desnudez y la belleza del cuerpo masculino. Solo los grandes héroes usaban una especie de suspensorio para protegerse en combate.
-                p.mb-0 Durante el Imperio Romano, la ropa interior comenzó a usarse por higiene y abrigo. Los hombres llevaban bajo la túnica una prenda larga llamada subúcula.
+                p.mb-0 Durante el Imperio Romano, la ropa interior comenzó a usarse por higiene y abrigo. Los hombres llevaban bajo la túnica una prenda larga llamada #[em subúcula].
 
 
       .titulo-sexto.color-secundario.mb-4
         h5 Figura 1. 
-        | Subúcula
+        | #[em Subúcula]
 
       .row.fondo2.p-4.p-lg-4.p-md-3.mb-4(data-aos="fade-down")
         .col-lg-12
@@ -40,11 +40,11 @@
             .col-lg-7
               img.img-a.img-t(src='@/assets/curso/tema1/2.svg', alt='Representa el proceso de colocación y ajuste de una prenda de ropa interior primitiva llamada subúcula.')
 
-      p.mb-5 Además, en la arena del circo los gladiadores usaban una pieza como un pañal que cubría los genitales y se llamaba subligaculum.
+      p.mb-5 Además, en la arena del circo los gladiadores usaban una pieza como un pañal que cubría los genitales y se llamaba #[em subligaculum].
 
       .titulo-sexto.color-secundario.mb-4
         h5 Figura 2. 
-        | Subligaculum
+        | #[em Subligaculum]
 
       .row.fondo2.p-4.p-lg-4.p-md-3.mb-5(data-aos="fade-down")
         .col-lg-12
@@ -62,7 +62,7 @@
             .row.align-items-center.justify-content-center
               .col-lg-8.mb-0
                 .bgw.p-4
-                  p.mb-4(data-aos="fade-left") Las mujeres casadas realzaban sus senos con el apodesmo, una faja de tejido fino adornada con cintas de colores. También empleaban el mastodeton, una banda diseñada para aplanar el busto.
+                  p.mb-4(data-aos="fade-left") Las mujeres casadas realzaban sus senos con el #[em apodesmo], una faja de tejido fino adornada con cintas de colores. También empleaban el #[em mastodeton], una banda diseñada para aplanar el busto.
                   p.mb-0 En la alta sociedad, las mujeres usaban redecillas de hilos de oro o plata y pintaban sus pezones en tonos dorados o plateados. Las prendas íntimas femeninas eran utilizadas principalmente como símbolos de seducción.
               .col-lg-4.col-md-7.col-7.mb-lg-0.d-none.d-lg-block
                 figure
@@ -71,7 +71,7 @@
 
       .titulo-sexto.color-secundario.mb-4
         h5 Figura 3. 
-        | El apodesmo y el mastodeton
+        | El #[em apodesmo] y el #[em mastodeton]
 
       .row.fondo2.p-4.p-lg-4.p-md-3.mb-5(data-aos="fade-down")
         .col-lg-12
@@ -174,7 +174,7 @@
               .col-lg-8.mb-0
                 .bgw.p-4
                   p.mb-4(data-aos="fade-left") En el siglo XX, la ropa interior femenina y masculina se volvió más cómoda, reflejando cambios en la moda, la sexualidad y el poder.
-                  p.mb-4 Tras la crisis económica de 1929, los calzones largos masculinos se acortaron para reducir costos, y en 1934 nació el slip, un calzoncillo ajustado de tejido fino.
+                  p.mb-4 Tras la crisis económica de 1929, los calzones largos masculinos se acortaron para reducir costos, y en 1934 nació el #[em slip], un calzoncillo ajustado de tejido fino.
                   p.mb-0 En 1914, Mary Phelps Jacob, buscando un diseño más discreto para su vestido, creó con dos pañuelos de seda y una cinta el primer sujetador moderno, patentándolo el 3 de noviembre del mismo año.
               .col-lg-4.col-md-7.col-7.mb-lg-0.d-none.d-lg-block
                 figure

@@ -57,7 +57,7 @@
           img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/tema2/5.svg', alt='tema1')
           .bgw1.p-1.mb-4
             h5.text-center.mb-0.my-1.ps-2.pe-2 #[em Hipsters]
-          p.mb-p.text-center Este modelo cubre media nalga y llega hasta la cadera. Comúnmente se confecciona con encaje para hacerlos más sexies, no se marcan con la ropa y puede usarse con pantalones muy ajustados.
+          p.mb-p.text-center Este modelo cubre media nalga y llega hasta la cadera. Comúnmente se confecciona con encaje para hacerlos más #[em sexies], no se marcan con la ropa y puede usarse con pantalones muy ajustados.
     
     .row.justify-content-center.mb-0
       .col-lg-4.col-md-6.mb-4
@@ -65,7 +65,7 @@
           img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/tema2/6.svg', alt='tema1')
           .bgw1.p-1.mb-4
             h5.text-center.mb-0.my-1.ps-2.pe-2 Bikini
-          p.mb-p.text-center Es muy parecido al hipsters, llega hasta la cadera, pero cubre toda la nalga, se fabrica en tela muy delgada y se usa con jeans.
+          p.mb-p.text-center Es muy parecido al #[em hipsters], llega hasta la cadera, pero cubre toda la nalga, se fabrica en tela muy delgada y se usa con jeans.
       .col-lg-4.col-md-6.mb-4
         .overflow-hidden.h-100.bg1.p-4(data-aos="fade-left")
           img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/tema2/7.svg', alt='tema1')
@@ -77,7 +77,7 @@
           img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/tema2/8.svg', alt='tema1')
           .bgw1.p-1.mb-4
             h5.text-center.mb-0.my-1.ps-2.pe-2 Tanga
-          p.mb-p.text-center Es muy sexy y su uso es muy común, no cubre la nalga, se usa con pantalones y vestidos ajustados al cuerpo.
+          p.mb-p.text-center Es muy #[em sexy] y su uso es muy común, no cubre la nalga, se usa con pantalones y vestidos ajustados al cuerpo.
     
     .row.justify-content.mb-0
       .col-lg-4.col-md-6.mb-4
@@ -98,7 +98,7 @@
     #t_2_3.titulo-segundo.mb-5
       h2 2.3 Brasieres
     
-    p.mb-4 El brasier es una prenda fundamental para la comodidad y soporte del busto. Existen diversos tipos según la necesidad, como los clásicos, deportivos, push up o maternales. Su diseño ha evolucionado, combinando funcionalidad y estilo para adaptarse a cada mujer.
+    p.mb-4 El brasier es una prenda fundamental para la comodidad y soporte del busto. Existen diversos tipos según la necesidad, como los clásicos, deportivos, #[em push up] o maternales. Su diseño ha evolucionado, combinando funcionalidad y estilo para adaptarse a cada mujer.
     
     .titulo1.mb-5.ps-5.pe-3(data-aos="fade-right")
       img(src='@/assets/curso/tema1/titulo.png', alt='Imagen decorativa')
@@ -209,7 +209,7 @@
                   .col-8.my-2
                     img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema2/22.svg' alt='AvatarTop')
                     .bg3.p-1.mb-0
-                      h5.text-center.mb-0.my-1.ps-2.pe-2 Powernet
+                      h5.text-center.mb-0.my-1.ps-2.pe-2 #[em Powernet]
                 p.mb-0.text-center(data-aos="fade-right") Tela resistente con capacidad de ejercer presión en todas las direcciones y recuperar su forma original. Se recomienda para prendas posoperatorias, ya que su tejido antibacterial previene el crecimiento de hongos y bacterias.
               .tarjeta.tarjeta--slyder.b2.p-2.p-lg-4.p-md-3
                 .row.justify-content-center.mb-3
@@ -217,7 +217,7 @@
                     img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema2/23.svg' alt='AvatarTop')
                     .bg3.p-1.mb-0
                       h5.text-center.mb-0.my-1.ps-2.pe-2 Látex
-                p.mb-0.text-center(data-aos="fade-right") Favorece la reducción de medidas mediante la sudoración. Generalmente, se combina con powernet y microfibra.
+                p.mb-0.text-center(data-aos="fade-right") Favorece la reducción de medidas mediante la sudoración. Generalmente, se combina con #[em powernet] y microfibra.
               .tarjeta.tarjeta--slyder.b2.p-2.p-lg-4.p-md-3
                 .row.justify-content-center.mb-3
                   .col-8.my-2
@@ -266,7 +266,7 @@
           .row.align-items-center.justify-content-center
             .col-lg-8.mb-0
               .bgw.p-4
-                p.mb-4(data-aos="fade-left") Es una prenda de lencería femenina similar a una bata, confeccionada en materiales como seda, satén, nailon o algodón. Su diseño suele ser ligero y delicado, con encajes, transparencias o bordados para aportar un toque sensual y elegante. Se usa comúnmente antes de acostarse o al levantarse, proporcionando comodidad y sofisticación. Además de su función práctica, es un símbolo de feminidad y glamour en la moda íntima.
+                p.mb-4(data-aos="fade-left") Es una prenda de lencería femenina similar a una bata, confeccionada en materiales como seda, satén, nailon o algodón. Su diseño suele ser ligero y delicado, con encajes, transparencias o bordados para aportar un toque sensual y elegante. Se usa comúnmente antes de acostarse o al levantarse, proporcionando comodidad y sofisticación. Además de su función práctica, es un símbolo de feminidad y #[em glamour] en la moda íntima.
             .col-lg-4.col-md-7.col-7.mb-lg-0.d-none.d-lg-block
               figure
                 img.mb-lg-0.img-a.img-t.mt2(data-aos="fade-down")(src='@/assets/curso/tema2/28.png', alt='') 
