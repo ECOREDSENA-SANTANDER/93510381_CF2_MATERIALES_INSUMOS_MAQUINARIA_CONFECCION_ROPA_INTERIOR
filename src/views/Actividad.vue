@@ -91,7 +91,7 @@ export default {
         {
           id: 4,
           texto:
-            'EL tejido plano es un método que utiliza fibras sin hilar, las cuales se humedecen y someten a presión y calor para adherirse y formar la tela.',
+            'El tejido plano es un método que utiliza fibras sin hilar, las cuales se humedecen y someten a presión y calor para adherirse y formar la tela.',
           imagen: require('@/assets/actividad/imagen4.png'),
           barajarRespuestas: true,
           opciones: [
