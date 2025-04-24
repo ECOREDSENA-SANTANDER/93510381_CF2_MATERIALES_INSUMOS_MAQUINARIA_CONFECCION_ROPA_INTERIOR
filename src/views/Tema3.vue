@@ -31,12 +31,12 @@
       img(src='@/assets/curso/tema1/titulo.png', alt='Imagen decorativa')
       h3.mb-0.text-white.mx-2 Otras telas
     
-    p.mb-5 Después de conocer los tipos de tejido utilizados en la fabricación de telas, es posible identificar las más empleadas en la producción de prendas de ropa interior femenina, según el material y el uso que el mercado les otorga.
+    p.mb-4 Después de conocer los tipos de tejido utilizados en la fabricación de telas, es posible identificar las más empleadas en la producción de prendas de ropa interior femenina, según el material y el uso que el mercado les otorga.
 
     .row.justify-content-center.align-items-center.mb-0
-      .col-lg-3.col-md-7.col-8
+      .col-lg-3.col-md-5.col-8.mb-4
         img(src='@/assets/curso/tema3/1.png', alt='')
-      .col-lg-9
+      .col-lg-9.mb-4
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-0(data-aos="fade-right")
           .row.col-xl-11.m-auto(titulo="Rayón")
             p.mb-4 El rayón es una fibra de origen celulósico, versátil y con un tacto similar a la seda. Es suave, fresco, cómodo, fácil de teñir, conserva el calor y tiene una alta capacidad de absorción. Existen varios tipos de rayón:

@@ -87,10 +87,10 @@
       h2 4.3 Bóxer
       
     .row.justify-content-center.align-items-end.mb-0
-      .col-lg-4.col-md-6.col-9.mb-4
+      .col-lg-4.col-md-6.col-7.mb-4
         img(src='@/assets/curso/tema4/8.png', alt='')
-      .col-lg-8.col-md-10
-        SlyderF.custom(columnas="col-lg-6 col-md-6 col-xl-6")
+      .col-lg-8
+        SlyderF(columnas="col-lg-6 col-md-6 col-xl-6")
           .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
             .row.justify-content-center.mb-3
               .col-8.my-4

@@ -78,13 +78,29 @@ figcaption
   background-position: center 
   margin-inline: -3.4rem
   @media screen and (max-width: 992px)
-    margin-inline: -1.4rem
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
 
 .fnd1 h3,
     color: white
 
 .linea-tiempo-e.color-primario .linea-tiempo-e__item__header:before 
     border-color: #C2D960
+
+@media (min-width: 768px) and (max-width: 1024px) 
+  .o2
+     order: 2
+  .o1
+     order: 1
+@media (max-width: 767px)  
+  .o2
+     order: 2
+  .o1
+     order: 1
 
 
 .fondo2
@@ -94,7 +110,12 @@ figcaption
   background-position: top 
   margin-inline: -3.4rem
   @media screen and (max-width: 992px)
-    margin-inline: -1.4rem
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
 
 .bgw
   background-color: white
@@ -227,12 +248,17 @@ figcaption
 
 .fondo3
   background: url('../assets/curso/tema2/fondo3.png')
-  background-size: 100% 90%
+  background-size: 100% 89%
   background-repeat: no-repeat
-  background-position: center
+  background-position: bottom 
   margin-inline: -3.4rem
   @media screen and (max-width: 992px)
-    margin-inline: -1.4rem
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
 
 .tarjeta--slyder.b2
   background-color: #B4D5F6
@@ -256,12 +282,14 @@ figcaption
     background-color: #A4A1C5
 .tabs-a.color-acento-botones .tabs-a__tab__selected 
     background-color: #FFC400
-    color: black
+    color: black !important
 .tarjeta.color-acento-botones * 
-    color:  black
+    color:  black !important
 .tabs-a__tab:last-child 
     margin-bottom: 0 !important
     background-color: #C2D960
+.tabs-a__tab__text
+    color:  black !important
 
 .acordion__accion__btn--a
   background-color: #FFC400
@@ -332,11 +360,15 @@ figcaption
   background: url('../assets/curso/tema5/fondo7.png')
   background-size: 100% 100%
   background-repeat: no-repeat
-  background-position: center 
+  background-position: cover
   margin-inline: -3.4rem
   @media screen and (max-width: 992px)
-    margin-inline: -1.4rem
-
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
 
 @media (max-width: 768px) 
     .slyder-a__bullets__item 
@@ -357,3 +389,39 @@ figcaption
     position: relative
     width: 67.5%
     background-color: rgba(255, 255, 255, 0.95)
+@media (min-width: 768px) and (max-width: 1024px)
+  .bloque-texto-g__img 
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+  .bloque-texto-g__texto 
+    position: relative
+    width: 100%
+    background-color: rgba(255, 255, 255, 0.95)
+
+.banner-principal
+  @media (max-width: $bp-max-md)
+    .tarjeta
+      background-image: url('../assets/curso/portada/fondo-banner-principal_tablet.png') !important
+      background-repeat: no-repeat 
+      background-size: 100% 100%
+      background-position: cover
+    &__info
+      padding-top: 8% !important 
+      padding-right: 5% !important
+
+@media (min-width: 768px) and (max-width: 1024px) 
+  .nt
+    float: none
+    display: flex
+    justify-content: center
+    align-items: center
+    margin: 0 auto
+
+
+
+  
+
+

@@ -20,7 +20,7 @@
       .col-lg-7
         .row.justify-content-center.align-items-center.mb-0
           .col-lg-2.mb-3
-            img.img-a.img-t(src='@/assets/curso/tema2/2.svg', alt='')
+            img.img-a.img-t.d-none.d-lg-block(src='@/assets/curso/tema2/2.svg', alt='')
           .col-lg-10.mb-3
             p.mb-0 La ropa interior femenina debe estar confeccionada con tejidos suaves, ligeros y cómodos, evitando que se adhieran a la ropa exterior o se deformen. Debe ajustarse bien al cuerpo sin causar irritación, y no presentar fruncidos, costuras gruesas o hilos sueltos.
 
@@ -145,7 +145,8 @@
           p.mb-p.text-center Diseñados para actividades físicas, fabricados con tejidos transpirables y sin varillas para reducir el impacto del movimiento.
     
 
-    .row.justify-content.mb-0
+
+    .row.mb-0.nt
       .col-lg-4.col-md-6.mb-0
         .overflow-hidden.h-100.bg2.p-4(data-aos="fade-left")
           img.img-a.img-t.mb-3.icono-cambia(src='@/assets/curso/tema2/17.svg', alt='tema1')
@@ -191,7 +192,7 @@
               h5.mb-3.text-center.text-white Estéticas
               p.mb-0.text-center.mb-0.txp Moldean y definen zonas específicas del cuerpo, proporcionando armonía a las curvas.
     
-    .titulo1.mb-5.ps-5.pe-3(data-aos="fade-right")
+    .titulo1.mb-4.ps-5.pe-3(data-aos="fade-right")
       img(src='@/assets/curso/tema1/titulo.png', alt='Imagen decorativa')
       h3.mb-0.text-white.mx-2 Tejidos utilizados en las fajas
     
@@ -200,9 +201,9 @@
       .col-lg-12
          
         .row.justify-content-center.align-items-center.mb-4
-          .col-lg-3.col-md-6.col-7.mb-4
+          .col-lg-3.col-md-5.col-7.mb-lg-4.mb-0
             img.img-a.img-t(src='@/assets/curso/tema2/21.png', alt='')
-          .col-lg-7.col-md-10.mb-4.my-5
+          .col-lg-7.mb-0.my-5
             SlyderF(columnas="col-lg-6 col-md-6 col-xl-6")
               .tarjeta.tarjeta--slyder.b2.p-3.p-lg-4.p-md-3
                 .row.justify-content-center.mb-3

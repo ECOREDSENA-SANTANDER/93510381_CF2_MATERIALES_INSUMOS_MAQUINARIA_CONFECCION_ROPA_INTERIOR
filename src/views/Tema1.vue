@@ -9,22 +9,23 @@
         
       p.mb-5 La ropa interior se utiliza desde hace más de 5000 años a.C. Su evolución histórica, tanto en la versión femenina como masculina, junto con la selección de materiales e insumos adaptados a las necesidades, es un aspecto fundamental en su diseño y fabricación.
 
-      .row.fondo1.p-4.p-lg-5.p-md-3.mb-5(data-aos="fade-down")
+      .row.justify-content-center.align-items-center.fondo1.p-4.p-lg-4.p-md-3.mb-5(data-aos="fade-down")
         .col-lg-12
-          .row.justify-content-center.align-items-center 
           
-          LineaTiempoE.color-primario.fnd1
-            .row.text-white(titulo="5300 años a.C" subtitulo="")
-              .col-lg-3.col-md-3.col-6
-                img(src='@/assets/curso/tema1/1.svg', alt='Texto que describa la imagen')
-              .col-lg-9.col-md-9.mb-4.mb-lg-0
-                p.mb-3 En 1991 se descubrió el cuerpo momificado de un hombre que vivió hace más de 5300 años y vestía un calzón de piel de cabra. Aunque no se sabe con exactitud cuándo comenzaron a usarse los calzoncillos, existen registros en el Antiguo Egipto.
-                p.mb-0 En 1922, al descubrir la tumba de Tutankamón, se halló un pañal de lino, considerado el antecedente de los calzoncillos actuales. Los egipcios reservaban la ropa interior para los hombres, mientras que solo algunas mujeres privilegiadas y prostitutas de clase alta la utilizaban.
-        
-            .row.text-white(titulo="1700 años a.C." subtitulo="")
-              .col-lg-12
-                p.mb-4 En Creta apareció el primer sujetador, una correa que sostenía y elevaba los senos sin cubrirlos. A diferencia de los egipcios, en la antigua Grecia se valoraba la desnudez y la belleza del cuerpo masculino. Solo los grandes héroes usaban una especie de suspensorio para protegerse en combate.
-                p.mb-0 Durante el Imperio Romano, la ropa interior comenzó a usarse por higiene y abrigo. Los hombres llevaban bajo la túnica una prenda larga llamada #[em subúcula].
+          .row.justify-content-center.align-items-center
+            .col-lg-11
+              LineaTiempoE.color-primario.fnd1.ps-0
+                .row.justify-content-center.align-items-center.text-white(titulo="5300 años a.C" subtitulo="")
+                  .col-lg-3.col-md-3.col-6
+                    img.mb-4(src='@/assets/curso/tema1/1.svg', alt='Texto que describa la imagen')
+                  .col-lg-9.mb-4.mb-lg-0
+                    p.mb-3 En 1991 se descubrió el cuerpo momificado de un hombre que vivió hace más de 5300 años y vestía un calzón de piel de cabra. Aunque no se sabe con exactitud cuándo comenzaron a usarse los calzoncillos, existen registros en el Antiguo Egipto.
+                    p.mb-0 En 1922, al descubrir la tumba de Tutankamón, se halló un pañal de lino, considerado el antecedente de los calzoncillos actuales. Los egipcios reservaban la ropa interior para los hombres, mientras que solo algunas mujeres privilegiadas y prostitutas de clase alta la utilizaban.
+            
+                .row.justify-content-center.align-items-center.text-white(titulo="1700 años a.C." subtitulo="")
+                  .col-lg-12
+                    p.mb-4 En Creta apareció el primer sujetador, una correa que sostenía y elevaba los senos sin cubrirlos. A diferencia de los egipcios, en la antigua Grecia se valoraba la desnudez y la belleza del cuerpo masculino. Solo los grandes héroes usaban una especie de suspensorio para protegerse en combate.
+                    p.mb-0 Durante el Imperio Romano, la ropa interior comenzó a usarse por higiene y abrigo. Los hombres llevaban bajo la túnica una prenda larga llamada #[em subúcula].
 
 
       .titulo-sexto.color-secundario.mb-4
@@ -35,9 +36,9 @@
         .col-lg-12
 
           .row.justify-content-start.align-items-end
-            .col-lg-2
+            .col-lg-2.o2
               p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
-            .col-lg-7
+            .col-lg-7.o1
               img.img-a.img-t(src='@/assets/curso/tema1/2.svg', alt='Representa el proceso de colocación y ajuste de una prenda de ropa interior primitiva llamada subúcula.')
 
       p.mb-5 Además, en la arena del circo los gladiadores usaban una pieza como un pañal que cubría los genitales y se llamaba #[em subligaculum].
@@ -50,9 +51,9 @@
         .col-lg-12
 
           .row.justify-content-start.align-items-end
-            .col-lg-2
+            .col-lg-2.o2
               p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
-            .col-lg-7
+            .col-lg-7.o1
               img.img-a.img-t(src='@/assets/curso/tema1/3.svg', alt='Los gladiadores utilizaban una prenda llamada subligaculum, similar a un pañal, que cubría y protegía los genitales durante los combates.')
 
 
@@ -77,9 +78,9 @@
         .col-lg-12
 
           .row.justify-content-start.align-items-end
-            .col-lg-2
+            .col-lg-2.o2
               p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
-            .col-lg-7
+            .col-lg-7.o1
               img.img-a.img-t(src='@/assets/curso/tema1/5.svg', alt='Las mujeres casadas usaban el apodesmo, una faja de tejido fino con cintas de colores para realzar el busto, y el mastodeton, una banda diseñada para aplanarlo.')
 
       .titulo.mb-5.ps-5.pe-3(data-aos="fade-right")
@@ -96,9 +97,9 @@
         .col-lg-12
 
           .row.justify-content-start.align-items-end
-            .col-lg-2
+            .col-lg-2.o2
               p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
-            .col-lg-7
+            .col-lg-7.o1
               img.img-a.img-t(src='@/assets/curso/tema1/6.svg', alt='Los camisones eran prendas utilizados por mujeres y hombres, fabricados en finas telas.')
 
       .titulo1.mb-5.ps-5.pe-3(data-aos="fade-right")
@@ -122,9 +123,9 @@
         .col-lg-12
 
           .row.justify-content-start.align-items-end
-            .col-lg-2
+            .col-lg-2.o2
               p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
-            .col-lg-7
+            .col-lg-7.o1
               img.img-a.img-t(src='@/assets/curso/tema1/8.svg', alt='Corsé antiguo, una prenda ajustada con varillas y cordones diseñada para moldear la cintura y realzar la figura femenina. Su estructura rígida reflejaba los ideales de belleza de la época, aunque su uso prolongado podía causar problemas de salud.')
 
       p.mb-4 Vestirse era un ritual para las mujeres, quienes usaban múltiples capas de ropa, incluyendo camisa, pantalón, corsé, cubrecorsé y enaguas con encajes y lazos. Aunque elegante, el corsé era incómodo y poco práctico para las tareas diarias, por lo que no todas podían llevarlo.
@@ -137,9 +138,9 @@
         .col-lg-12
 
           .row.justify-content-start.align-items-end
-            .col-lg-2
+            .col-lg-2.o2
               p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
-            .col-lg-7
+            .col-lg-7.o1
               img.img-a.img-t(src='@/assets/curso/tema1/9.svg', alt='Ilustración en blanco y negro de una mujer con un vestido de época del siglo XIX. Lleva un vestido amplio con una falda abullonada, detalles decorativos en la parte inferior y mangas cortas con adornos. Sostiene un abanico en una mano y parece llevar un peinado recogido elegante.')
 
       .titulo1.mb-5.ps-5.pe-3(data-aos="fade-right")
@@ -156,9 +157,9 @@
         .col-lg-12
 
           .row.justify-content-start.align-items-end
-            .col-lg-2
+            .col-lg-2.o2
               p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
-            .col-lg-7
+            .col-lg-7.o1
               img.img-a.img-t(src='@/assets/curso/tema1/10.svg', alt='Mujer vistiéndose frente a un biombo, usando un corsé y medias. La escena refleja la intimidad y elegancia de la moda femenina de la época, donde las prendas ajustadas y delicadas eran símbolo de refinamiento y estatus.')
 
       p.mb-4 A partir de 1880, en Europa surgió el Movimiento para la Salud, promoviendo los beneficios de la lana en contacto con la piel. Esto llevó a su popularización en la ropa interior masculina.
@@ -189,9 +190,9 @@
         .col-lg-12
 
           .row.justify-content-start.align-items-end
-            .col-lg-2
+            .col-lg-2.o2
               p.mb-0.ps-lg-3.ps-md-0 Fuente: SENA
-            .col-lg-7
+            .col-lg-7.o1
               img.img-a.img-t(src='@/assets/curso/tema1/12.svg', alt='Sujetadores modernos, confeccionado con tela sencilla y costuras visibles. Su diseño rudimentario refleja la evolución de la lencería femenina hacia prendas más cómodas y funcionales.')
 
 </template>
