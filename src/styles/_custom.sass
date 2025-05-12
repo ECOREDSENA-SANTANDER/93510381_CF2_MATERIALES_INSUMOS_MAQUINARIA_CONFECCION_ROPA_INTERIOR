@@ -72,10 +72,9 @@ figcaption
 
 
 .fondo1
-  background: url('../assets/curso/tema1/fondo1.png')
-  background-size: 100% 100%
-  background-repeat: no-repeat
-  background-position: center 
+  background-image: url('../assets/curso/tema1/fondo1.png')
+  background-size: 100% 
+  background-position: bottom
   margin-inline: -3.4rem
   @media screen and (max-width: 992px)
     margin-inline: -3rem
@@ -84,9 +83,28 @@ figcaption
     margin-right: -2rem
     margin-left: -2rem
     background-size:  100% 100%
-
 .fnd1 h3,
     color: white
+.tt
+  margin: -10px
+  @media (max-width: 768px)
+    margin-top: 10px
+
+
+.linea-tiempo-e__item__header:before 
+    content: ''
+    position: absolute
+    width: 20px
+    height: 20px
+    border-radius: 50%
+    border: 5px solid
+    background-color: #fff
+    top: 4px
+    right: -20px
+    z-index: 99
+    transform: translateX(-50%)
+
+
 
 .linea-tiempo-e.color-primario .linea-tiempo-e__item__header:before 
     border-color: #C2D960
@@ -105,18 +123,13 @@ figcaption
 
 .fondo2
   background: url('../assets/curso/tema1/fondo2.png')
-  background-size: 100% 
+  background-size: 100% 80%
   background-repeat: no-repeat
-  background-position: top 
+  background-position: bottom
   margin-inline: -3.4rem
   @media screen and (max-width: 992px)
-    margin-inline: -3rem
-  @media screen and (max-width: 767px)
-    margin-inline: -2.4rem
-    margin-right: -2rem
-    margin-left: -2rem
-    background-size:  100% 100%
-
+    margin-inline: -1.4rem 
+  
 .bgw
   background-color: white
 
@@ -376,30 +389,44 @@ figcaption
         height: 11px
         margin: 0px 0.5px
 
-
-.bloque-texto-g__img 
-    width: 35%
-    position: absolute
-    top: 0
-    left: 0
-    bottom: 0
-    background-position: center
-    background-size: cover
-.bloque-texto-g__texto 
-    position: relative
-    width: 67.5%
-    background-color: rgba(255, 255, 255, 0.95)
-@media (min-width: 768px) and (max-width: 1024px)
+.bloque-texto-g.mk
   .bloque-texto-g__img 
-    width: 100%;
-    position: absolute;
-    top: 0px;
-    left: 0px;
-    bottom: 0px;
+      width: 35%
+      position: absolute
+      top: 0
+      left: 0
+      bottom: 0
+      background-position: center
+      background-size: cover
   .bloque-texto-g__texto 
-    position: relative
-    width: 100%
-    background-color: rgba(255, 255, 255, 0.95)
+      position: relative
+      width: 67.5%
+      background-color: rgba(255, 255, 255, 0.95)
+  @media (max-width: 768px)
+    .bloque-texto-g__img 
+      width: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      bottom: 0px;
+    .bloque-texto-g__texto 
+      position: relative
+      width: 100%
+      background-color: rgba(255, 255, 255, 0.95)
+  @media (min-width: 768px) and (max-width: 1024px)
+    .bloque-texto-g__img 
+      width: 100%
+      position: absolute
+      top: 0px
+      left: 0px
+      bottom: 0px
+    .bloque-texto-g__texto 
+      position: relative
+      width: 100%
+      background-color: rgba(255, 255, 255, 0.95)
+
+
+
 
 .banner-principal
   @media (max-width: $bp-max-md)
@@ -422,6 +449,57 @@ figcaption
 
 
 
-  
+.pasos-a__linea__esquina__linea 
+    border: 3px solid
+    width: 100%
+    position: relative
+    border-radius: 0px
+.pasos-a.color-primario .pasos-a__circle 
+    background-color: #14B8A6
+.pasos-a.color-primario .pasos-a__circle div 
+    color: #fff
+.pasos-a.color-primario .pasos-a__numero::after
+    border-left-color: #14B8A6
+.pasos-a.color-primario .pasos-a__linea .hor-line 
+    border-top-color: #14B8A6
+.pasos-a.color-primario .pasos-a__linea__esquina__linea 
+    border-color: #14B8A6
+
+
+.bloque-texto-g.mk1
+  .bloque-texto-g__img 
+      width: 35%
+      position: absolute
+      top: 0
+      left: 0
+      bottom: 0
+      background-position: center
+      background-size: cover
+  .bloque-texto-g__texto 
+      position: relative
+      width: 72.5%
+      background-color: rgba(255, 255, 255, 0.95)
+  @media (max-width: 768px)
+    .bloque-texto-g__img 
+      width: 100%;
+      position: absolute;
+      top: 0px;
+      left: 0px;
+      bottom: 0px;
+    .bloque-texto-g__texto 
+      position: relative
+      width: 100%
+      background-color: rgba(255, 255, 255, 0.95)
+  @media (min-width: 768px) and (max-width: 1024px)
+    .bloque-texto-g__img 
+      width: 100%
+      position: absolute
+      top: 0px
+      left: 0px
+      bottom: 0px
+    .bloque-texto-g__texto 
+      position: relative
+      width: 100%
+      background-color: rgba(255, 255, 255, 0.95)
 
 

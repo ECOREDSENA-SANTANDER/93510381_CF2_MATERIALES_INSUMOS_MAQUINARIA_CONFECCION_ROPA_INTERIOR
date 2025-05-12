@@ -249,7 +249,7 @@
     
     .row.justify-content-center.align-items-center(data-aos="fade-right").mb-0
       .col-lg-12
-        .bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+        .bloque-texto-g.mk.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/tema2/27.png')})`}", alt='Imagen decorativa.'
           )
