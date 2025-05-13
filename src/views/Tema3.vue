@@ -36,27 +36,47 @@
     .row.justify-content-center.align-items-center.mb-0
       .col-lg-3.col-md-5.col-8.mb-4
         img(src='@/assets/curso/tema3/1.png', alt='')
-      .col-lg-9.mb-4
+      .col-lg-9.mb-0
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-0(data-aos="fade-right")
-          .row.col-xl-11.m-auto(titulo="Rayón")
-            p.mb-4 El rayón es una fibra de origen celulósico, versátil y con un tacto similar a la seda. Es suave, fresco, cómodo, fácil de teñir, conserva el calor y tiene una alta capacidad de absorción. Existen varios tipos de rayón:
-            ul.lista-ul.mb-0
-              li.d-flex.mb-0
-                i.fas.fa-circle-check
-                p.mb-0 #[b Rayón viscoso:] al combinarse con materiales como algodón, lana o poliéster, se utiliza en la fabricación de ropa interior, abrigos y vestidos.
-              li.d-flex.mb-0
-                i.fas.fa-circle-check
-                p.mb-0 #[b Rayón acetato y rayón triacetato:] las telas de acetato se derivan de la pulpa de madera o algodón, y se combinan con acetato de anhídrido. Este tipo de fibra no encoge, es resistente, presenta buena elongación, no se destiñe ni se arruga, y su brillo imita la seda natural.
-          .row.col-xl-11.m-auto(titulo="Nailon")
-            p.mb-0 Es un polímero termoplástico de la familia de las poliamidas. Es suave, resistente al uso, no se arruga, durable, fácil de lavar y se seca rápidamente. Sin embargo, no soporta altas temperaturas, tiene baja capacidad de absorción de humedad y se utiliza principalmente para fabricar medias y lencería.
-          .row.col-xl-11.m-auto(titulo="Poliéster")
-            p.mb-0 Es un polímero termoestable. Es durable, resistente al roce, no se arruga ni destiñe, y se lava y seca fácilmente. Presenta baja capacidad de absorción de humedad y no resiste altas temperaturas. Se utiliza comúnmente en la fabricación de trajes, camisas, vestidos y blusas.
-          .row.col-xl-11.m-auto(titulo="<em>Lycra</em>, elastano o spandex")
-            p.mb-0 Conocido comercialmente como spandex, es una fibra elastomérica de la familia de los poliuretanos. Tiene gran elasticidad, se ajusta al cuerpo, es ligera, resistente al roce y durable. Generalmente, se mezcla con otras fibras como poliéster, nailon o algodón. Aunque el color blanco tiende a volverse amarillo con el tiempo, es de baja absorción de humedad. Se utiliza en la fabricación de corsetería, medias y trajes de baño.
-          .row.col-xl-11.m-auto(titulo="Microfibra")
-            p.mb-0 Es un polímero elastómero compuesto en su mayoría por 80 % de poliéster y 20 % de poliamida. Es ligera, flexible, suave e indeformable. Posee una gran capacidad de limpieza, resiste altas temperaturas y tiene una excelente capacidad de absorción. Se usa en la fabricación de ropa interior, imitaciones de cuero para abrigos, guantes y tejidos para muebles tapizados.
-          .row.col-xl-11.m-auto(titulo="Seda")
-            p.mb-5 Es una fibra natural compuesta de proteínas. Su origen proviene de la oruga, que se cría en grandes cantidades y se alimenta especialmente de hojas de morera. Cada capullo produce una fibra que, al ser hilada con otras cuatro, forma un hilo. Este material se considera un producto de lujo por su textura y brillo.
+          .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Rayón")
+            .col-lg-8.mb-4
+              p.mb-4 El rayón es una fibra de origen celulósico, versátil y con un tacto similar a la seda. Es suave, fresco, cómodo, fácil de teñir, conserva el calor y tiene una alta capacidad de absorción. Existen varios tipos de rayón:
+              ul.lista-ul.mb-0
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 #[b Rayón viscoso:] al combinarse con materiales como algodón, lana o poliéster, se utiliza en la fabricación de ropa interior, abrigos y vestidos.
+                li.d-flex.mb-0
+                  i.fas.fa-circle-check
+                  p.mb-0 #[b Rayón acetato y rayón triacetato:] las telas de acetato se derivan de la pulpa de madera o algodón, y se combinan con acetato de anhídrido. Este tipo de fibra no encoge, es resistente, presenta buena elongación, no se destiñe ni se arruga, y su brillo imita la seda natural.
+            .col-lg-4.col-md-7.mb-4
+              img(src='@/assets/curso/tema3/2.png', alt='')
+            
+          .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Nailon")
+            .col-lg-8.mb-4
+              p.mb-0 Es un polímero termoplástico de la familia de las poliamidas. Es suave, resistente al uso, no se arruga, durable, fácil de lavar y se seca rápidamente. Sin embargo, no soporta altas temperaturas, tiene baja capacidad de absorción de humedad y se utiliza principalmente para fabricar medias y lencería.
+            .col-lg-4.col-md-7.mb-4
+              img(src='@/assets/curso/tema3/3.png', alt='')
+          
+          .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Poliéster")
+            .col-lg-8.mb-4
+              p.mb-0 Es un polímero termoestable. Es durable, resistente al roce, no se arruga ni destiñe, y se lava y seca fácilmente. Presenta baja capacidad de absorción de humedad y no resiste altas temperaturas. Se utiliza comúnmente en la fabricación de trajes, camisas, vestidos y blusas.
+            .col-lg-4.col-md-7.mb-4
+              img(src='@/assets/curso/tema3/4.png', alt='')
+          .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="<em>Lycra</em>, elastano o spandex")
+            .col-lg-8.mb-4
+              p.mb-0 Conocido comercialmente como spandex, es una fibra elastomérica de la familia de los poliuretanos. Tiene gran elasticidad, se ajusta al cuerpo, es ligera, resistente al roce y durable. Generalmente, se mezcla con otras fibras como poliéster, nailon o algodón. Aunque el color blanco tiende a volverse amarillo con el tiempo, es de baja absorción de humedad. Se utiliza en la fabricación de corsetería, medias y trajes de baño.
+            .col-lg-4.col-md-7.mb-4
+              img(src='@/assets/curso/tema3/5.png', alt='')
+          .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Microfibra")
+            .col-lg-8.mb-4
+              p.mb-0 Es un polímero elastómero compuesto en su mayoría por 80 % de poliéster y 20 % de poliamida. Es ligera, flexible, suave e indeformable. Posee una gran capacidad de limpieza, resiste altas temperaturas y tiene una excelente capacidad de absorción. Se usa en la fabricación de ropa interior, imitaciones de cuero para abrigos, guantes y tejidos para muebles tapizados.
+            .col-lg-4.col-md-7.mb-4
+              img(src='@/assets/curso/tema3/6.png', alt='')
+          .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Seda")
+            .col-lg-8.mb-4  
+              p.mb-5 Es una fibra natural compuesta de proteínas. Su origen proviene de la oruga, que se cría en grandes cantidades y se alimenta especialmente de hojas de morera. Cada capullo produce una fibra que, al ser hilada con otras cuatro, forma un hilo. Este material se considera un producto de lujo por su textura y brillo.
+            .col-lg-4.col-md-7.mb-4
+              img.mb-4(src='@/assets/curso/tema3/7.png', alt='')
             .bloque-texto-f.color-acento-contenido.pt-4.px-5.mb-0
               .bloque-texto-f__comillas
                 i.fas.fa-quote-left
@@ -65,10 +85,11 @@
               .bloque-texto-f__autor.mb-3
                 h3.mb-0 - Joseluisylute, 2009
 
-                
-          .row.col-xl-11.m-auto(titulo="Tela bordada")
-            p.mb-0 Es un tejido compuesto por hilos de seda, algodón, lino, oro o plata, que se trenzan para crear diversos diseños. Esta tela se utiliza comúnmente en la confección de ropa interior, trajes de fiesta y vestidos de novia.
-           
+          .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Tela bordada")
+            .col-lg-8.mb-4
+              p.mb-0 Es un tejido compuesto por hilos de seda, algodón, lino, oro o plata, que se trenzan para crear diversos diseños. Esta tela se utiliza comúnmente en la confección de ropa interior, trajes de fiesta y vestidos de novia.
+            .col-lg-4.col-md-7.mb-4
+              img(src='@/assets/curso/tema3/8.png', alt='')
 
 
 

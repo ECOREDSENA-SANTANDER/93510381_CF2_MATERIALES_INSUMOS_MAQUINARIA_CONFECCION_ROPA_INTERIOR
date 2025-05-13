@@ -7,14 +7,14 @@
         span 2
       h1 Ropa interior
 
-    p.mb-0 La ropa interior ha evolucionado a lo largo de la historia, adaptándose a las necesidades de comodidad, higiene y moda. Fabricada con diversos materiales y diseños, cumple una función esencial en la vestimenta diaria, tanto para hombres como para mujeres. Desde sus primeras versiones rudimentarias hasta las sofisticadas prendas actuales, la ropa interior refleja cambios culturales, tecnológicos y estéticos.
+    p.mb-0(data-aos="fade-left") La ropa interior ha evolucionado a lo largo de la historia, adaptándose a las necesidades de comodidad, higiene y moda. Fabricada con diversos materiales y diseños, cumple una función esencial en la vestimenta diaria, tanto para hombres como para mujeres. Desde sus primeras versiones rudimentarias hasta las sofisticadas prendas actuales, la ropa interior refleja cambios culturales, tecnológicos y estéticos.
    
 
     separador
     #t_2_1.titulo-segundo.mb-5
       h2 2.1 Ropa interior femenina
     
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-4(data-aos="fade-left")
       .col-lg-5.col-md-9.col-9
         img(src='@/assets/curso/tema2/1.png', alt='')
       .col-lg-7
@@ -24,74 +24,108 @@
           .col-lg-10.mb-3
             p.mb-0 La ropa interior femenina debe estar confeccionada con tejidos suaves, ligeros y cómodos, evitando que se adhieran a la ropa exterior o se deformen. Debe ajustarse bien al cuerpo sin causar irritación, y no presentar fruncidos, costuras gruesas o hilos sueltos.
 
-        p Los detalles como bordados, encajes y aplicaciones deben estar firmemente cosidos para garantizar su durabilidad. La calidad de la fibra, el tipo de hilo y el acabado influyen en la resistencia de la prenda, así como su cuidado. Se recomienda lavarlas a mano con agua a temperatura ambiente y evitar el uso de blanqueadores.
+        p(data-aos="fade-left") Los detalles como bordados, encajes y aplicaciones deben estar firmemente cosidos para garantizar su durabilidad. La calidad de la fibra, el tipo de hilo y el acabado influyen en la resistencia de la prenda, así como su cuidado. Se recomienda lavarlas a mano con agua a temperatura ambiente y evitar el uso de blanqueadores.
     
-    p.mb-0 A continuación, se presentan las principales prendas de ropa interior femenina.
+    p.mb-0(data-aos="fade-left") A continuación, se presentan las principales prendas de ropa interior femenina.
     
 
     separador
     #t_2_2.titulo-segundo.mb-5
       h2 2.2 Pantis
     
-    p.mb-4 En el mercado se encuentra gran variedad de diseños que se pueden utilizar para cada ocasión o de acuerdo a los gustos y preferencias de cada persona.
+    p.mb-4(data-aos="fade-left") En el mercado se encuentra gran variedad de diseños que se pueden utilizar para cada ocasión o de acuerdo a los gustos y preferencias de cada persona.
     
     .titulo1.mb-5.ps-5.pe-3(data-aos="fade-right")
       img(src='@/assets/curso/tema1/titulo.png', alt='Imagen decorativa')
       h3.mb-0.text-white.mx-2 Tipos de ropa interior femenina
     
-    .row.justify-content-center.mb-0
-      .col-lg-4.col-md-6.mb-4
-        .overflow-hidden.h-100.bg1.p-4(data-aos="fade-left")
-          img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/tema2/3.svg', alt='tema1')
-          .bgw1.p-1.mb-4
-            h5.text-center.mb-0.my-1.ps-2.pe-2 Clásico
-          p.mb-p.text-center Muy cómodo y de talle alto, cubre el vientre y parte de los muslos. Ideal para usar con ropa suelta o jeans.
-      .col-lg-4.col-md-6.mb-4
-        .overflow-hidden.h-100.bg1.p-4(data-aos="fade-left")
-          img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/tema2/4.svg', alt='tema1')
-          .bgw1.p-1.mb-4
-            h5.text-center.mb-0.my-1.ps-2.pe-2 Corte alto o francés
-          p.mb-p.text-center También es un clásico, se diferencia por la abertura de la pierna que llega hasta el hueso de la cadera. Se marca fácilmente y no se debe usar con ropa ajustada al cuerpo.
-      .col-lg-4.col-md-6.mb-4
-        .overflow-hidden.h-100.bg1.p-4(data-aos="fade-left")
-          img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/tema2/5.svg', alt='tema1')
-          .bgw1.p-1.mb-4
-            h5.text-center.mb-0.my-1.ps-2.pe-2 #[em Hipsters]
-          p.mb-p.text-center Este modelo cubre media nalga y llega hasta la cadera. Comúnmente se confecciona con encaje para hacerlos más #[em sexies], no se marcan con la ropa y puede usarse con pantalones muy ajustados.
+    .row.justify-content-center.align-items-center.mb-0(data-aos="fade-left")
+      .col-lg-10
     
-    .row.justify-content-center.mb-0
-      .col-lg-4.col-md-6.mb-4
-        .overflow-hidden.h-100.bg1.p-4(data-aos="fade-left")
-          img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/tema2/6.svg', alt='tema1')
-          .bgw1.p-1.mb-4
-            h5.text-center.mb-0.my-1.ps-2.pe-2 Bikini
-          p.mb-p.text-center Es muy parecido al #[em hipsters], llega hasta la cadera, pero cubre toda la nalga, se fabrica en tela muy delgada y se usa con jeans.
-      .col-lg-4.col-md-6.mb-4
-        .overflow-hidden.h-100.bg1.p-4(data-aos="fade-left")
-          img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/tema2/7.svg', alt='tema1')
-          .bgw1.p-1.mb-4
-            h5.text-center.mb-0.my-1.ps-2.pe-2 Bóxeres o #[em boyshorts]
-          p.mb-p.text-center Tienen el corte del calzoncillo de hombre, pero adaptado al cuerpo femenino, es muy cómodo y se asemeja a un minishort. Se puede usar con cualquier tipo de ropa.
-      .col-lg-4.col-md-6.mb-4
-        .overflow-hidden.h-100.bg1.p-4(data-aos="fade-left")
-          img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/tema2/8.svg', alt='tema1')
-          .bgw1.p-1.mb-4
-            h5.text-center.mb-0.my-1.ps-2.pe-2 Tanga
-          p.mb-p.text-center Es muy #[em sexy] y su uso es muy común, no cubre la nalga, se usa con pantalones y vestidos ajustados al cuerpo.
-    
-    .row.justify-content.mb-0
-      .col-lg-4.col-md-6.mb-4
-        .overflow-hidden.h-100.bg1.p-4(data-aos="fade-left")
-          img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/tema2/9.svg', alt='tema1')
-          .bgw1.p-1.mb-4
-            h5.text-center.mb-0.my-1.ps-2.pe-2 Hilo
-          p.mb-p.text-center Este diseño se origina de la tanga, la diferencia es que la parte que va entre las nalgas es tan delgada como un hilo y se une con un pequeño triángulo en la parte superior, es de uso muy popular por resultar cómodo.
-      .col-lg-4.col-md-6.mb-4
-        .overflow-hidden.h-100.bg1.p-4(data-aos="fade-left")
-          img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/tema2/10.svg', alt='tema1')
-          .bgw1.p-1.mb-4
-            h5.text-center.mb-0.my-1.ps-2.pe-2 Sujetador o control
-          p.mb-p.text-center Este modelo se usa cuando queremos que el cuerpo esté muy controlado. Se usa especialmente para vestidos muy ajustados, ya que resultan invisibles.
+        .row.justify-content-center.align-items-center.mb-0
+          .col-lg-4.col-md-5.col-7.mb-4
+            img(src='@/assets/curso/tema2/i1.png', alt='')
+          .col-lg-8
+            SlyderF(columnas="col-lg-6 col-md-6 col-xl-6")
+              .tarjeta.tarjeta--slyder.b1.p-3.p-lg-4.p-md-3
+                .row.justify-content-center.mb-3
+                  .col-8.my-4
+                    img.img-a.img-t.mb-0(src='@/assets/curso/tema2/3.svg', alt='tema1')
+                .row.justify-content-center.align-items-center
+                  .col-lg-11
+                    .bg51.p-1.mb-4
+                      h4.text-center.mb-0.text-white.my-1.ps-2.pe-2 Clásico
+                p.mb-5.text-center(data-aos="fade-right") Muy cómodo y de talle alto, cubre el vientre y parte de los muslos. Ideal para usar con ropa suelta o jeans.
+              
+              .tarjeta.tarjeta--slyder.b1.p-3.p-lg-4.p-md-3
+                .row.justify-content-center.mb-3
+                  .col-8.my-4
+                    img.img-a.img-t.mb-0(src='@/assets/curso/tema2/4.svg', alt='tema1')
+                .row.justify-content-center.align-items-center
+                  .col-lg-11
+                    .bg51.p-1.mb-4
+                       h4.text-center.mb-0.text-white.my-1.ps-2.pe-2 Corte alto o francés
+                p.mb-5.text-center(data-aos="fade-right") También es un clásico, se diferencia por la abertura de la pierna que llega hasta el hueso de la cadera. Se marca fácilmente y no se debe usar con ropa ajustada al cuerpo.
+              
+              .tarjeta.tarjeta--slyder.b1.p-3.p-lg-4.p-md-3
+                .row.justify-content-center.mb-3
+                  .col-8.my-4
+                    img.img-a.img-t.mb-0(src='@/assets/curso/tema2/5.svg', alt='tema1')
+                .row.justify-content-center.align-items-center
+                  .col-lg-11
+                    .bg51.p-1.mb-4
+                      h4.text-center.mb-0.text-white.my-1.ps-2.pe-2 #[em Hipsters]
+                p.mb-3.text-center(data-aos="fade-right") Este modelo cubre media nalga y llega hasta la cadera. Comúnmente se confecciona con encaje para hacerlos más #[em sexies], no se marcan con la ropa y puede usarse con pantalones muy ajustados.
+            
+              .tarjeta.tarjeta--slyder.b1.p-3.p-lg-4.p-md-3
+                .row.justify-content-center.mb-3
+                  .col-8.my-4
+                    img.img-a.img-t.mb-0(src='@/assets/curso/tema2/6.svg', alt='tema1')
+                .row.justify-content-center.align-items-center
+                  .col-lg-11
+                    .bg51.p-1.mb-4
+                      h4.text-center.mb-0.text-white.my-1.ps-2.pe-2 Bikini
+                p.mb-5.text-center(data-aos="fade-right") Es muy parecido al #[em hipsters], llega hasta la cadera, pero cubre toda la nalga, se fabrica en tela muy delgada y se usa con jeans.
+              
+              .tarjeta.tarjeta--slyder.b1.p-3.p-lg-4.p-md-3
+                .row.justify-content-center.mb-3
+                  .col-8.my-4
+                    img.img-a.img-t.mb-0(src='@/assets/curso/tema2/7.svg', alt='tema1')
+                .row.justify-content-center.align-items-center
+                  .col-lg-11
+                    .bg51.p-1.mb-4
+                      h4.text-center.mb-0.text-white.my-1.ps-2.pe-2 Bóxeres o #[em boyshorts]
+                p.mb-5.text-center(data-aos="fade-right") Tienen el corte del calzoncillo de hombre, pero adaptado al cuerpo femenino, es muy cómodo y se asemeja a un minishort. Se puede usar con cualquier tipo de ropa.
+              
+              .tarjeta.tarjeta--slyder.b1.p-3.p-lg-4.p-md-3
+                .row.justify-content-center.mb-3
+                  .col-8.my-4
+                    img.img-a.img-t.mb-0(src='@/assets/curso/tema2/8.svg', alt='tema1')
+                .row.justify-content-center.align-items-center
+                  .col-lg-11
+                    .bg51.p-1.mb-4
+                      h4.text-center.mb-0.text-white.my-1.ps-2.pe-2 Tanga
+                p.mb-5.text-center(data-aos="fade-right") Es muy #[em sexy] y su uso es muy común, no cubre la nalga, se usa con pantalones y vestidos ajustados al cuerpo.
+              
+              .tarjeta.tarjeta--slyder.b1.p-3.p-lg-4.p-md-3
+                .row.justify-content-center.mb-3
+                  .col-8.my-4
+                    img.img-a.img-t.mb-0(src='@/assets/curso/tema2/9.svg', alt='tema1')
+                .row.justify-content-center.align-items-center
+                  .col-lg-11
+                    .bg51.p-1.mb-4
+                      h4.text-center.mb-0.text-white.my-1.ps-2.pe-2 Hilo
+                p.mb-3.text-center(data-aos="fade-right") Este diseño se origina de la tanga, la diferencia es que la parte que va entre las nalgas es tan delgada como un hilo y se une con un pequeño triángulo en la parte superior, es de uso muy popular por resultar cómodo.
+              
+              .tarjeta.tarjeta--slyder.b1.p-3.p-lg-4.p-md-3
+                .row.justify-content-center.mb-3
+                  .col-8.my-4
+                    img.img-a.img-t.mb-0(src='@/assets/curso/tema2/10.svg', alt='tema1')
+                .row.justify-content-center.align-items-center
+                  .col-lg-11
+                    .bg51.p-1.mb-4
+                      h4.text-center.mb-0.text-white.my-1.ps-2.pe-2 Sujetador o control
+                p.mb-5.text-center(data-aos="fade-right") Este modelo se usa cuando queremos que el cuerpo esté muy controlado. Se usa especialmente para vestidos muy ajustados, ya que resultan invisibles.
 
     
     separador
@@ -104,7 +138,7 @@
       img(src='@/assets/curso/tema1/titulo.png', alt='Imagen decorativa')
       h3.mb-0.text-white.mx-2 Tipos de brasieres
     
-    .row.justify-content-center.mb-0
+    .row.justify-content-center.mb-0(data-aos="fade-left")
       .col-lg-4.col-md-6.mb-4
         .overflow-hidden.h-100.bg2.p-4(data-aos="fade-left")
           img.img-a.img-t.mb-3.icono-cambia(src='@/assets/curso/tema2/11.svg', alt='tema1')
@@ -144,7 +178,6 @@
             h5.text-center.mb-0.my-1.ps-2.pe-2 Deportivos
           p.mb-p.text-center Diseñados para actividades físicas, fabricados con tejidos transpirables y sin varillas para reducir el impacto del movimiento.
     
-
 
     .row.mb-0.nt
       .col-lg-4.col-md-6.mb-0
@@ -200,42 +233,42 @@
     .row.fondo3.p-4.p-lg-1.p-md-3.mb-0(data-aos="fade-down")
       .col-lg-12
          
-        .row.justify-content-center.align-items-center.mb-4
+        .row.justify-content-center.align-items-end.mb-4(data-aos="fade-left")
           .col-lg-3.col-md-5.col-7.mb-lg-4.mb-0
             img.img-a.img-t(src='@/assets/curso/tema2/21.png', alt='')
-          .col-lg-7.mb-0.my-5
+          .col-lg-7.mb-lg-4.mb-0.my-5
             SlyderF(columnas="col-lg-6 col-md-6 col-xl-6")
               .tarjeta.tarjeta--slyder.b2.p-3.p-lg-4.p-md-3
                 .row.justify-content-center.mb-3
-                  .col-8.my-2
+                  .col-8.my-3
                     img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema2/22.svg' alt='AvatarTop')
                     .bg3.p-1.mb-0
                       h5.text-center.mb-0.my-1.ps-2.pe-2 #[em Powernet]
                 p.mb-0.text-center(data-aos="fade-right") Tela resistente con capacidad de ejercer presión en todas las direcciones y recuperar su forma original. Se recomienda para prendas posoperatorias, ya que su tejido antibacterial previene el crecimiento de hongos y bacterias.
               .tarjeta.tarjeta--slyder.b2.p-2.p-lg-4.p-md-3
                 .row.justify-content-center.mb-3
-                  .col-8.my-2
+                  .col-8.my-3
                     img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema2/23.svg' alt='AvatarTop')
                     .bg3.p-1.mb-0
                       h5.text-center.mb-0.my-1.ps-2.pe-2 Látex
                 p.mb-0.text-center(data-aos="fade-right") Favorece la reducción de medidas mediante la sudoración. Generalmente, se combina con #[em powernet] y microfibra.
               .tarjeta.tarjeta--slyder.b2.p-2.p-lg-4.p-md-3
                 .row.justify-content-center.mb-3
-                  .col-8.my-2
+                  .col-8.my-3
                     img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema2/24.svg' alt='AvatarTop')
                     .bg3.p-1.mb-0
                       h5.text-center.mb-0.my-1.ps-2.pe-2 Microfibra
                 p.mb-0.text-center(data-aos="fade-right") Tela fina similar a la seda, con alta capacidad de absorción de humedad y resistencia a la deformación.
               .tarjeta.tarjeta--slyder.b2.p-2.p-lg-4.p-md-3
                 .row.justify-content-center.mb-3
-                  .col-8.my-2
+                  .col-8.my-3
                     img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema2/25.svg' alt='AvatarTop')
                     .bg3.p-1.mb-0
                       h5.text-center.mb-0.my-1.ps-2.pe-2 Microlatex
                 p.mb-0.text-center(data-aos="fade-right") Compuesto por hilos finos de látex que moldean el cuerpo y ayudan a reducir medidas de manera natural.
               .tarjeta.tarjeta--slyder.b2.p-2.p-lg-4.p-md-3
                 .row.justify-content-center.mb-3
-                  .col-8.my-2
+                  .col-8.my-3
                     img.img-a.img-t.mb-4(data-aos="zoom-in-left")(src='@/assets/curso/tema2/26.svg' alt='AvatarTop')
                     .bg3.p-1.mb-0
                       h5.text-center.mb-0.my-1.ps-2.pe-2 Combinación

@@ -123,18 +123,23 @@ figcaption
 
 .fondo2
   background: url('../assets/curso/tema1/fondo2.png')
-  background-size: 100% 80%
+  background-size: 100% 88%
   background-repeat: no-repeat
-  background-position: bottom
+  background-position: center
   margin-inline: -3.4rem
   @media screen and (max-width: 992px)
-    margin-inline: -1.4rem 
+    margin-inline: -3rem
+  @media screen and (max-width: 767px)
+    margin-inline: -2.4rem
+    margin-right: -2rem
+    margin-left: -2rem
+    background-size:  100% 100%
   
 .bgw
   background-color: white
 
 .mt
-  margin-top: -19%
+  margin-top: -18.5%
   position: absolute
 
 .mt1
@@ -213,7 +218,6 @@ figcaption
   border-radius: 15px
   &:hover
     background-color: #FCF9E8
-
 .icono-cambia
   filter: hue-rotate(0deg)
 .icono-cambia:hover 
@@ -327,7 +331,6 @@ figcaption
 
 .bg51
   background-color: #606B2F
-  width: fit-content
   margin: auto
 
 .color-acento-contenido.tar
@@ -503,3 +506,13 @@ figcaption
       background-color: rgba(255, 255, 255, 0.95)
 
 
+.bg6
+  background-color: #D9EAFA
+  border-radius: 10px
+.bg7
+  background-color: #EBF4FC
+  border-radius: 10px
+
+@media (max-width: 767px) 
+    .cel
+        display: none
