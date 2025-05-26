@@ -230,7 +230,7 @@
       h3.mb-0.text-white.mx-2 Tejidos utilizados en las fajas
     
     
-    .row.fondo3.p-4.p-lg-1.p-md-3.mb-0(data-aos="fade-down")
+    .row.fondo3.p-4.p-lg-1.p-md-3.mb-0(data-aos="fade-left")
       .col-lg-12
          
         .row.justify-content-center.align-items-end.mb-4(data-aos="fade-left")
@@ -294,7 +294,7 @@
     #t_2_6.titulo-segundo.mb-5
       h2 2.6 Camisones
 
-    .row.justify-content-center.align-items-center.mb-4.mt-5(data-aos="fade-down")
+    .row.justify-content-center.align-items-center.mb-4.mt-5(data-aos="fade-left")
       .col-lg-12
         .bloque-texto-a.color-acento-contenido.p-4.p-md-5
           .row.align-items-center.justify-content-center
@@ -303,7 +303,7 @@
                 p.mb-4(data-aos="fade-left") Es una prenda de lencería femenina similar a una bata, confeccionada en materiales como seda, satén, nailon o algodón. Su diseño suele ser ligero y delicado, con encajes, transparencias o bordados para aportar un toque sensual y elegante. Se usa comúnmente antes de acostarse o al levantarse, proporcionando comodidad y sofisticación. Además de su función práctica, es un símbolo de feminidad y #[em glamour] en la moda íntima.
             .col-lg-4.col-md-7.col-7.mb-lg-0.d-none.d-lg-block
               figure
-                img.mb-lg-0.img-a.img-t.mt2(data-aos="fade-down")(src='@/assets/curso/tema2/28.png', alt='') 
+                img.mb-lg-0.img-a.img-t.mt2(data-aos="fade-left")(src='@/assets/curso/tema2/28.png', alt='') 
      
 </template>
 

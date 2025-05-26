@@ -90,7 +90,7 @@
     #t_5_2.titulo-segundo.mb-5
       h2 5.2 Ropa deportiva masculina
 
-    .row.fondo7.p-4.p-lg-5.p-md-4.mb-0(data-aos="fade-down")
+    .row.fondo7.p-4.p-lg-5.p-md-4.mb-0(data-aos="fade-left")
       .col-lg-12
         
         .tarjetaf.p-4.mb-2

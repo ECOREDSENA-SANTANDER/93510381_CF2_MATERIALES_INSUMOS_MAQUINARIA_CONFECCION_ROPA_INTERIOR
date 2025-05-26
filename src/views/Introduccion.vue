@@ -16,8 +16,8 @@
       .col-lg-12.col-12.col-md-12
         figure(data-aos="fade-right")
           .video
-            iframe(width="560" height="315" src="https://www.youtube.com/embed/VDxkj_DuE7g?si=69ZLegV0K34dcv3f" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen)
-          figcaption Video. Protocolos de cierre de caja: introducción
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/rq1vIUmubJM?si=_rUSZNZBtDChJ1ut" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+          figcaption Video. Insumos, materiales y telas
 
 </template>
 
