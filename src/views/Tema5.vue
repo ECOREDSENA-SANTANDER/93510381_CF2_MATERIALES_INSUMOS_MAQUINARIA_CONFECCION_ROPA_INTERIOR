@@ -49,35 +49,35 @@
                 p.mb-0 Son ideales para la práctica del deporte preferido. Se recomienda que estén fabricadas en poliéster o nailon para mayor frescura.
               .col-lg-5.col-md-7.col-10.mb-0
                 img(src='@/assets/curso/tema5/14.png', alt='Imagen decorativa')
-          .tarjeta.color-acento-botones.bg4.p-lg-5.p-4(titulo="Camisetas deportivas")
+          .tarjeta.color-acento-botones.bg4.p-lg-5.p-4(titulo="Sudaderas deportivas")
             .row.justify-content-center.mb-0
               .col-lg-7.mb-4
                 h4.mb-4 Sudaderas deportivas
                 p.mb-0 Se usan para hacer ejercicio en días fríos o después de entrenar.
               .col-lg-5.col-md-7.col-10.mb-0
                 img(src='@/assets/curso/tema5/15.png', alt='Imagen decorativa')
-          .tarjeta.color-acento-botones.bg4.p-lg-5.p-4(titulo="Camisetas deportivas")
+          .tarjeta.color-acento-botones.bg4.p-lg-5.p-4(titulo="Pantalones deportivos")
             .row.justify-content-center.mb-0
               .col-lg-7.mb-4
                 h4.mb-4 Pantalones deportivos
                 p.mb-0 Existe una gran variedad de diseños para hacer deporte. Su elección debe depender del tipo de actividad a realizar.
               .col-lg-5.col-md-7.col-10.mb-0
                 img(src='@/assets/curso/tema5/16.png', alt='Imagen decorativa')
-          .tarjeta.color-acento-botones.bg4.p-lg-5.p-4(titulo="Camisetas deportivas")
+          .tarjeta.color-acento-botones.bg4.p-lg-5.p-4(titulo="Top deportivo")
             .row.justify-content-center.mb-0
               .col-lg-7.mb-4
                 h4.mb-4 Top deportivo
                 p.mb-0 Prenda ideal para mujeres activas. Su diseño con espalda atlética y cargaderas de máximo soporte permite moverse con libertad.
               .col-lg-5.col-md-7.col-10.mb-0
                 img(src='@/assets/curso/tema5/17.png', alt='Imagen decorativa')
-          .tarjeta.color-acento-botones.bg4.p-lg-5.p-4(titulo="Camisetas deportivas")
+          .tarjeta.color-acento-botones.bg4.p-lg-5.p-4(titulo="Ropa interior")
             .row.justify-content-center.mb-0
               .col-lg-7.mb-4
                 h4.mb-4 Ropa interior
                 p.mb-0 Debe ser fresca, cómoda y brindar el soporte necesario durante la actividad física.
               .col-lg-5.col-md-7.col-10.mb-0
                 img(src='@/assets/curso/tema5/18.png', alt='Imagen decorativa')
-          .tarjeta.color-acento-botones.bg4.p-lg-5.p-4(titulo="Camisetas deportivas")
+          .tarjeta.color-acento-botones.bg4.p-lg-5.p-4(titulo="Calcetines deportivos")
             .row.justify-content-center.mb-0
               .col-lg-7.mb-4
                 h4.mb-4 Calcetines deportivos

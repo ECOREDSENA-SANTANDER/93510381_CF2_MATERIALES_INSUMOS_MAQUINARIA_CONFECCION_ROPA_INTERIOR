@@ -18,19 +18,19 @@
         .overflow-hidden.h-100.bg1.p-4(data-aos="fade-left")
           img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/tema4/1.svg', alt='tema1')
           .bgw1.p-1.mb-4
-            h5.text-center.mb-0.my-1.ps-2.pe-2 a. Camiseta cuello V
+            h5.text-center.mb-0.my-1.ps-2.pe-2 Camiseta cuello V
           p.mb-p.text-center Prenda ideal tanto para vestir como para hacer ejercicio. Su confección en algodón la hace fresca y cómoda.
       .col-lg-4.col-md-6.mb-4
         .overflow-hidden.h-100.bg1.p-4(data-aos="fade-left")
           img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/tema4/2.svg', alt='tema1')
           .bgw1.p-1.mb-4
-            h5.text-center.mb-0.my-1.ps-2.pe-2 b. Camiseta cuello redondo
+            h5.text-center.mb-0.my-1.ps-2.pe-2 Camiseta cuello redondo
           p.mb-p.text-center Perfecta para vestir o hacer ejercicio. Gracias a su confección en algodón, ofrece frescura y comodidad.
       .col-lg-4.col-md-6.mb-4
         .overflow-hidden.h-100.bg1.p-4(data-aos="fade-left")
           img.img-a.img-t.mb-3.icono-cambia1(src='@/assets/curso/tema4/3.svg', alt='tema1')
           .bgw1.p-1.mb-4
-            h5.text-center.mb-0.my-1.ps-2.pe-2 c. Camisilla deportiva
+            h5.text-center.mb-0.my-1.ps-2.pe-2 Camisilla deportiva
           p.mb-p.text-center Diseñada especialmente para la actividad física, suele estar elaborada en algodón. En climas cálidos se usa como prenda de vestir, mientras que en climas fríos se lleva debajo de la camisa para mayor abrigo.
 
 
