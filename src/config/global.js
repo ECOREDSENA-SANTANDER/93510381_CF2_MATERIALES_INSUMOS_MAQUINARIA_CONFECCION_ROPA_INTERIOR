@@ -47,7 +47,7 @@ export default {
         subMenu: [
           {
             numero: '2.1',
-            titulo: 'Ropa Interior Femenina',
+            titulo: 'Ropa interior femenina',
             hash: 't_2_1',
           },
           {
@@ -168,7 +168,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/dist.pdf',
+        download: 'downloads/CF2_93510381_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -184,17 +184,17 @@ export default {
   },
   complementario: [
     {
-      tema: 'Ejemplo proceso de producción de prendas de vestir',
+      tema: 'Telas utilizadas en la fabricación de ropa interior femenina',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (24 de agosto de 2023). Ejemplo proceso de producción de prendas de vestir [Archivo de Video]. YouTube.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (24 de agosto de 2023). Ejemplo proceso de producción de prendas de vestir.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=-Ae7NYQr10A&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
     },
     {
-      tema: 'Consumo de Materiales',
+      tema: 'Insumos y materiales para la fabricación de ropa interior',
       referencia:
-        'Ecosistema de Recursos Educativos Digitales SENA. (28 de mayo de 2024). Consumo de Materiales [Archivo de Video]. Youtube.',
+        'Ecosistema de Recursos Educativos Digitales SENA. (28 de mayo de 2024). Consumo de Materiales.',
       tipo: 'Video',
       link:
         'https://www.youtube.com/watch?v=27428pA7t3I&ab_channel=EcosistemadeRecursosEducativosDigitalesSENA',
@@ -351,7 +351,7 @@ export default {
         },
         {
           nombre: 'Erika Fernanda Mejía Pinzón',
-          cargo: 'Evaluadora instruccional',
+          cargo: 'Evaluadora para contenidos inclusivos y accesibles',
           centro: 'Centro Agroturístico - Regional Santander',
         },
       ],

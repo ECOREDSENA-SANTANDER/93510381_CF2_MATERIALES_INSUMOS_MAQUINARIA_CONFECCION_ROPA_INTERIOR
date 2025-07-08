@@ -55,7 +55,7 @@
                   .col-lg-11
                     .bg51.p-1.mb-4
                       h4.text-center.mb-0.text-white.my-1.ps-2.pe-2 Clásico
-                p.mb-5.text-center(data-aos="fade-right") Muy cómodo y de talle alto, cubre el vientre y parte de los muslos. Ideal para usar con ropa suelta o jeans.
+                p.mb-5.text-center(data-aos="fade-right") Muy cómodo y de talle alto, cubre el vientre y parte de los muslos. Ideal para usar con ropa suelta o #[em jeans].
               
               .tarjeta.tarjeta--slyder.b1.p-3.p-lg-4.p-md-3
                 .row.justify-content-center.mb-3
@@ -75,7 +75,7 @@
                   .col-lg-11
                     .bg51.p-1.mb-4
                       h4.text-center.mb-0.text-white.my-1.ps-2.pe-2 #[em Hipsters]
-                p.mb-3.text-center(data-aos="fade-right") Este modelo cubre media nalga y llega hasta la cadera. Comúnmente se confecciona con encaje para hacerlos más #[em sexies], no se marcan con la ropa y puede usarse con pantalones muy ajustados.
+                p.mb-3.text-center(data-aos="fade-right") Este modelo cubre media nalga y llega hasta la cadera. Comúnmente se confecciona con encaje para hacerlos más atractivos, no se marcan con la ropa y puede usarse con pantalones muy ajustados.
             
               .tarjeta.tarjeta--slyder.b1.p-3.p-lg-4.p-md-3
                 .row.justify-content-center.mb-3
@@ -85,7 +85,7 @@
                   .col-lg-11
                     .bg51.p-1.mb-4
                       h4.text-center.mb-0.text-white.my-1.ps-2.pe-2 Bikini
-                p.mb-5.text-center(data-aos="fade-right") Es muy parecido al #[em hipsters], llega hasta la cadera, pero cubre toda la nalga, se fabrica en tela muy delgada y se usa con jeans.
+                p.mb-5.text-center(data-aos="fade-right") Es muy parecido al #[em hipsters], llega hasta la cadera, pero cubre toda la nalga, se fabrica en tela muy delgada y se usa con #[em jeans].
               
               .tarjeta.tarjeta--slyder.b1.p-3.p-lg-4.p-md-3
                 .row.justify-content-center.mb-3

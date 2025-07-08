@@ -20,7 +20,7 @@
   
       .row.justify-content-center.align-items-center.mb-0
         .col-lg-10
-          PasosA.color-primario.pas.mb-0(tipo="l")
+          PasosA.color-primario.pas.mb-0(tipo="n")
             .row.justify-content-between.align-items-center(data-aos="fade-right")
               .col-lg-8.col-md-9
                 h4 Aros
@@ -155,7 +155,7 @@
                   img(src='@/assets/curso/tema6/18.svg', alt='Texto que describa la imagen')
               .col-lg-8.text-start.col-md-9
                 h4 Elásticos para cintura de panti
-                p.mb-0 De 1 cm en adelante, con banda elástica decorativa en pantis juveniles. Pueden incluir aplicaciones de encaje. Algunos están compuestos por fibra de lycra y nailon para mayor elongación y resistencia, y sus acabados agregan un toque de distinción a la prenda.
+                p.mb-0 De 1 cm en adelante, con banda elástica decorativa en pantis juveniles. Pueden incluir aplicaciones de encaje. Algunos están compuestos por fibra de #[em lycra] y nailon para mayor elongación y resistencia, y sus acabados agregan un toque de distinción a la prenda.
             .row.justify-content-between.align-items-center(data-aos="fade-right")
               .col-lg-8.col-md-9
                 h4 Elástico para envivar

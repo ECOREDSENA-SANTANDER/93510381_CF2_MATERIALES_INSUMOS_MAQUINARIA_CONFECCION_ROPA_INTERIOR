@@ -155,7 +155,7 @@
         img(data-aos="fade-right")(src='@/assets/curso/tema1/titulo.png', alt='Imagen decorativa')
         h3.mb-0.text-white.mx-4 Finales del siglo XIX
 
-      p.mb-4 A finales del siglo XIX aparecieron las primeras medias de seda, ligueros y la ropa o lencería femenina fue considerada sexy, reservada únicamente para la intimidad y para las llamadas mujeres de mala vida.
+      p.mb-4 A finales del siglo XIX aparecieron las primeras medias de seda, ligueros y la ropa o lencería femenina fue considerada #[em sexy], reservada únicamente para la intimidad y para las llamadas mujeres de mala vida.
 
       .titulo-sexto.color-secundario.mb-0(data-aos="fade-right")
         h5 Figura 7. 

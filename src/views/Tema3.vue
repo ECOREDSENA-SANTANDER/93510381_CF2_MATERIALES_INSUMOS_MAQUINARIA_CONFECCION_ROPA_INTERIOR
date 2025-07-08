@@ -21,7 +21,7 @@
             p.mb-0 Este método utiliza fibras sin hilar, las cuales se humedecen y someten a presión y calor para adherirse y formar la tela. Un ejemplo de este proceso es el fieltro y algunas entretelas como el interlón.
           .tarjeta.color-acento-botones.bg4.p-4(titulo="Tejido plano")
             p.mb-3 #[b Tejido plano]
-            p.mb-0 Las telas de tejido plano se elaboran en un telar, entrelazando dos hilos en ángulos rectos: los hilos de urdimbre y los de trama. El orillo, ubicado a lo largo de la tela, evita que esta se deshilache. Este tipo de tejido es resistente y con poca elongación, lo que lo hace ideal para prendas exteriores como camisas, pantalones, vestidos, delantales y jeans, así como para vestimenta de gala como vestidos de novia y trajes de etiqueta. Algunas telas comunes en este grupo son el dacrón, dril, lino, satén, chifón, organza, crepé, sarga, lamé, tafetán y lurex.
+            p.mb-0 Las telas de tejido plano se elaboran en un telar, entrelazando dos hilos en ángulos rectos: los hilos de urdimbre y los de trama. El orillo, ubicado a lo largo de la tela, evita que esta se deshilache. Este tipo de tejido es resistente y con poca elongación, lo que lo hace ideal para prendas exteriores como camisas, pantalones, vestidos, delantales y #[em jeans], así como para vestimenta de gala como vestidos de novia y trajes de etiqueta. Algunas telas comunes en este grupo son el dacrón, dril, lino, satén, chifón, organza, crepé, sarga, lamé, tafetán y lurex.
           .tarjeta.color-acento-botones.bg4.p-4(titulo="Tejido de punto")
             p.mb-3 #[b Tejido de punto]
             p.mb-0 Este método consiste en entrelazar un hilo mediante lazadas, formando una malla similar al tejido a mano, pero realizado con maquinaria industrial. Las telas de punto son flexibles y adaptables al cuerpo, aunque difíciles de manejar al cortarlas debido a su textura resbaladiza. Cuando el entrelazamiento genera un diseño, se denomina "tejido de doble punto". La tela Knit es especialmente popular en ropa deportiva y ropa interior por su elasticidad y comodidad (SENA, 2013).
@@ -62,9 +62,9 @@
               p.mb-0 Es un polímero termoestable. Es durable, resistente al roce, no se arruga ni destiñe, y se lava y seca fácilmente. Presenta baja capacidad de absorción de humedad y no resiste altas temperaturas. Se utiliza comúnmente en la fabricación de trajes, camisas, vestidos y blusas.
             .col-lg-4.col-md-7.mb-4
               img(src='@/assets/curso/tema3/4.png', alt='')
-          .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="<em>Lycra</em>, elastano o spandex")
+          .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="<em>Lycra</em>, elastano o <em>spandex</em>")
             .col-lg-8.mb-4
-              p.mb-0 Conocido comercialmente como spandex, es una fibra elastomérica de la familia de los poliuretanos. Tiene gran elasticidad, se ajusta al cuerpo, es ligera, resistente al roce y durable. Generalmente, se mezcla con otras fibras como poliéster, nailon o algodón. Aunque el color blanco tiende a volverse amarillo con el tiempo, es de baja absorción de humedad. Se utiliza en la fabricación de corsetería, medias y trajes de baño.
+              p.mb-0 Conocido comercialmente como #[em spandex], es una fibra elastomérica de la familia de los poliuretanos. Tiene gran elasticidad, se ajusta al cuerpo, es ligera, resistente al roce y durable. Generalmente, se mezcla con otras fibras como poliéster, nailon o algodón. Aunque el color blanco tiende a volverse amarillo con el tiempo, es de baja absorción de humedad. Se utiliza en la fabricación de corsetería, medias y trajes de baño.
             .col-lg-4.col-md-7.mb-4
               img(src='@/assets/curso/tema3/5.png', alt='')
           .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Microfibra")
@@ -83,7 +83,7 @@
                 i.fas.fa-quote-right
               h4.text-regular.bloque-texto-f__texto La seda es la única fibra continua de la naturaleza. Es lavable y teñible, y se utiliza como lienzo para pintar. Se emplea en la fabricación de trajes, faldas, blusas, camisas, corbatas, abrigos, chaquetas, cortinas, mantelería, entre otros.
               .bloque-texto-f__autor.mb-3
-                h3.mb-0 - Joseluisylute, 2009
+                h3.mb-0 - Joseluisylute, (2009)
 
           .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Tela bordada")
             .col-lg-8.mb-4

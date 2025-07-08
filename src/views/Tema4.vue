@@ -43,7 +43,7 @@
         img(src='@/assets/curso/tema4/18.png', alt='')
       .col-lg-9.mb-0
         AcordionA(tipo="a" clase-tarjeta="tarjeta tarjeta--azul").mb-0(data-aos="fade-right")
-          .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Estilo <em>Brief</em>")
+          .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Estilo <em>brief</em>")
             .col-lg-8.mb-4
               p.mb-4 Es el estilo más clásico, ya que tiene una alta cobertura en los laterales y deja las piernas completamente expuestas para mayor libertad de movimiento. Cuenta con una abertura frontal, lo que lo hace muy práctico y cómodo.
             .col-lg-4.col-md-7.mb-4
@@ -104,7 +104,7 @@
                     img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/15.svg' alt='AvatarTop')
                 .bg51.p-1.mb-4
                   h4.text-center.mb-0.text-white Bóxer largo
-                p.mb-0.text-center(data-aos="fade-right") Es uno de los favoritos de los hombres, se ajusta al cuerpo y tiene apariencia de short de ciclista.
+                p.mb-0.text-center(data-aos="fade-right") Es uno de los favoritos de los hombres, se ajusta al cuerpo y tiene apariencia de #[em short] de ciclista.
               .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
                 .row.justify-content-center.mb-3
                   .col-8.my-4
@@ -150,7 +150,7 @@
         .bg6.p-5.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-8
-              h4.mb-4 #[em Lycra] Spandex
+              h4.mb-4 #[em Lycra spandex]
               p.mb-4 Fibra sintética destacada por su alta elasticidad y resistencia, ideal para la fabricación de ropa interior ajustada.
             .col-lg-4
               img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/25.png' alt='AvatarTop')
