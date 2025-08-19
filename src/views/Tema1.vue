@@ -202,7 +202,7 @@
 
           .row.justify-content-center.align-items-center.mb-lg-4.mb-0
             .col-lg-6.col-md-9
-              img.img-a.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/12.png', alt='Sujetadores modernos, confeccionado con tela sencilla y costuras visibles. Su diseño rudimentario refleja la evolución de la lencería femenina hacia prendas más cómodas y funcionales.')
+              img.img-a.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/12.png', alt='Sujetadores modernos, confeccionados con tela sencilla y costuras visibles. Su diseño rudimentario refleja la evolución de la lencería femenina hacia prendas más cómodas y funcionales.')
       .row.justify-content-center.align-items-center(data-aos="fade-left")
         .col-lg-10.col-md-9
           figcaption Fuente: SENA
