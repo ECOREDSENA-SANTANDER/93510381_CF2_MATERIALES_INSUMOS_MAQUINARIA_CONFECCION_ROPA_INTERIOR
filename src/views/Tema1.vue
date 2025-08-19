@@ -15,7 +15,7 @@
           .row.justify-content-center.align-items-center
             .col-lg-12
               LineaTiempoE.color-primario.fnd1.ps-0
-                .row.justify-content-center.align-items-center.text-white.tt(titulo="5300 años a.C" subtitulo="")
+                .row.justify-content-center.align-items-center.text-white.tt(titulo="5300 años a.C." subtitulo="")
                   .col-lg-3.col-md-3.col-6.mb-3
                     img(data-aos="fade-right")(src='@/assets/curso/tema1/i1.svg', alt='Texto que describa la imagen')
                   .col-lg-9.mb-3
@@ -103,7 +103,7 @@
 
           .row.justify-content-center.align-items-center.mb-lg-4.mb-0
             .col-lg-5.col-md-9
-              img.img-a.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/6.png', alt='Los camisones eran prendas utilizados por mujeres y hombres, fabricados en finas telas.')
+              img.img-a.img-t(data-aos="fade-right")(src='@/assets/curso/tema1/6.png', alt='Los camisones eran prendas utilizadas por mujeres y hombres, fabricados en finas telas.')
       .row.justify-content-center.align-items-center(data-aos="fade-left")
         .col-lg-10.col-md-9
           figcaption.mb-5 Fuente: SENA

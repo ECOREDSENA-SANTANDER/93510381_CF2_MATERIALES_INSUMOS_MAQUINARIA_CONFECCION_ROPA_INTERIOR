@@ -62,7 +62,7 @@
               p.mb-0 Es un polímero termoestable. Es durable, resistente al roce, no se arruga ni destiñe, y se lava y seca fácilmente. Presenta baja capacidad de absorción de humedad y no resiste altas temperaturas. Se utiliza comúnmente en la fabricación de trajes, camisas, vestidos y blusas.
             .col-lg-4.col-md-7.mb-4
               img(src='@/assets/curso/tema3/4.png', alt='')
-          .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="<em>Lycra</em>, elastano o <em>spandex</em>")
+          .row.justify-content-center.align-items-center.col-xl-11.m-auto(titulo="Licra, elastano o <em>spandex</em>")
             .col-lg-8.mb-4
               p.mb-0 Conocido comercialmente como #[em spandex], es una fibra elastomérica de la familia de los poliuretanos. Tiene gran elasticidad, se ajusta al cuerpo, es ligera, resistente al roce y durable. Generalmente, se mezcla con otras fibras como poliéster, nailon o algodón. Aunque el color blanco tiende a volverse amarillo con el tiempo, es de baja absorción de humedad. Se utiliza en la fabricación de corsetería, medias y trajes de baño.
             .col-lg-4.col-md-7.mb-4

@@ -110,7 +110,7 @@
                   img(src='@/assets/curso/tema6/12.svg', alt='Texto que describa la imagen')
               .col-lg-8.text-start.col-md-9
                 h4 #[em Crochet]
-                p.mb-0 Son tejidos de punto con inserción de trama, lo que permite que sean elásticos o no. Si no tienen elastómero, no son recuperables tras su estiramiento. Su textura es suave y se utilizan en la confección de pantis, ropa deportiva y enaguas. El ancho de los elásticos varía según su uso y se mide en milímetros.
+                p.mb-0 Son tejidos de punto con inserción de trama, lo que permite que sean elásticos o no. Si no tienen elastómero, no son recuperables tras su estiramiento. Su textura es suave y se utiliza en la confección de pantis, ropa deportiva y enaguas. El ancho de los elásticos varía según su uso y se mide en milímetros.
             .row.justify-content-between.align-items-center(data-aos="fade-right")
               .col-lg-8.col-md-9
                 h4 Elásticos para piernas y costados de panti
@@ -144,7 +144,7 @@
             .row.justify-content-between.align-items-center(data-aos="fade-right")
               .col-lg-8.col-md-9
                 h4 Elásticos para cargadera de brasier
-                p.mb-0 Tienen un acabado en los orillos y presentan un brillo estético. Poseen elongación para sostener el peso y pueden ser afelpados en su interior para mayor suavidad. Se elaboran con nailon, #[em lycra], algodón, caucho - nailon, poliéster - nailon.
+                p.mb-0 Tienen un acabado en los orillos y presentan un brillo estético. Poseen elongación para sostener el peso y pueden ser afelpados en su interior para mayor suavidad. Se elaboran con nailon, licra, algodón, caucho - nailon, poliéster - nailon.
               .col-lg-3.col-md-3.cel
                 figure
                   img(src='@/assets/curso/tema6/17.svg', alt='Texto que describa la imagen')
@@ -155,7 +155,7 @@
                   img(src='@/assets/curso/tema6/18.svg', alt='Texto que describa la imagen')
               .col-lg-8.text-start.col-md-9
                 h4 Elásticos para cintura de panti
-                p.mb-0 De 1 cm en adelante, con banda elástica decorativa en pantis juveniles. Pueden incluir aplicaciones de encaje. Algunos están compuestos por fibra de #[em lycra] y nailon para mayor elongación y resistencia, y sus acabados agregan un toque de distinción a la prenda.
+                p.mb-0 De 1 cm en adelante, con banda elástica decorativa en pantis juveniles. Pueden incluir aplicaciones de encaje. Algunos están compuestos por fibra de licra y nailon para mayor elongación y resistencia, y sus acabados agregan un toque de distinción a la prenda.
             .row.justify-content-between.align-items-center(data-aos="fade-right")
               .col-lg-8.col-md-9
                 h4 Elástico para envivar

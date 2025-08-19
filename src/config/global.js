@@ -232,7 +232,7 @@ export default {
         'material colocado entre dos capas de tela para proporcionar mayor rigidez y estabilidad.',
     },
     {
-      termino: '<em>Lycra</em>',
+      termino: 'Licra',
       significado:
         'fibra sintética altamente elástica, utilizada para mejorar el ajuste y flexibilidad de las prendas',
     },

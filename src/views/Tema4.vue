@@ -111,7 +111,7 @@
                     img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/16.svg' alt='AvatarTop')
                 .bg51.p-1.mb-4
                   h4.text-center.mb-0.text-white Bóxer extralargo
-                p.mb-0.text-center(data-aos="fade-right") Tiene mayor cobertura en el área de las piernas. Está elaborado en #[em lycra], un material que se ajusta perfectamente a la forma del cuerpo, brindando comodidad y mayor libertad de movimiento.
+                p.mb-0.text-center(data-aos="fade-right") Tiene mayor cobertura en el área de las piernas. Está elaborado en licra, un material que se ajusta perfectamente a la forma del cuerpo, brindando comodidad y mayor libertad de movimiento.
               .tarjeta.tarjeta--slyder.b1.p-2.p-lg-4.p-md-3
                 .row.justify-content-center.mb-3
                   .col-8.my-4
@@ -150,7 +150,7 @@
         .bg6.p-5.mb-4
           .row.justify-content-center.align-items-center
             .col-lg-8
-              h4.mb-4 #[em Lycra spandex]
+              h4.mb-4 Licra #[em spandex]
               p.mb-4 Fibra sintética destacada por su alta elasticidad y resistencia, ideal para la fabricación de ropa interior ajustada.
             .col-lg-4
               img.img-a.img-t(data-aos="zoom-in-left")(src='@/assets/curso/tema4/25.png' alt='AvatarTop')

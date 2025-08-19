@@ -95,7 +95,7 @@
                   .col-lg-11
                     .bg51.p-1.mb-4
                       h4.text-center.mb-0.text-white.my-1.ps-2.pe-2 Bóxeres o #[em boyshorts]
-                p.mb-5.text-center(data-aos="fade-right") Tienen el corte del calzoncillo de hombre, pero adaptado al cuerpo femenino, es muy cómodo y se asemeja a un minishort. Se puede usar con cualquier tipo de ropa.
+                p.mb-5.text-center(data-aos="fade-right") Tienen el corte del calzoncillo de hombre, pero adaptado al cuerpo femenino, es muy cómodo y se asemeja a un pantalón corto. Se puede usar con cualquier tipo de ropa.
               
               .tarjeta.tarjeta--slyder.b1.p-3.p-lg-4.p-md-3
                 .row.justify-content-center.mb-3
@@ -105,7 +105,7 @@
                   .col-lg-11
                     .bg51.p-1.mb-4
                       h4.text-center.mb-0.text-white.my-1.ps-2.pe-2 Tanga
-                p.mb-5.text-center(data-aos="fade-right") Es muy #[em sexy] y su uso es muy común, no cubre la nalga, se usa con pantalones y vestidos ajustados al cuerpo.
+                p.mb-5.text-center(data-aos="fade-right") Es muy sexi y su uso es muy común, no cubre la nalga, se usa con pantalones y vestidos ajustados al cuerpo.
               
               .tarjeta.tarjeta--slyder.b1.p-3.p-lg-4.p-md-3
                 .row.justify-content-center.mb-3
